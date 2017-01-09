@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'ResultsController@index');
+Route::get('/results/commitstd/{repo}', 'ResultsController@commitstd');
 
 /*
 |--------------------------------------------------------------------------
