@@ -1,0 +1,168 @@
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle100:src/Guzzle/Http/Plugin/HistoryPlugin.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle100:tests/Guzzle/Tests/Http/Plugin/HistoryPluginTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle260:src/Guzzle/Common/Batch/BatchClosureTransfer.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle260:tests/Guzzle/Tests/Common/Batch/BatchClosureTransferTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle260:src/Guzzle/Http/Plugin/AsyncPlugin.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle260:tests/Guzzle/Tests/Http/Plugin/AsyncPluginTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle260:src/Guzzle/Http/Plugin/AsyncPlugin.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle260:tests/Guzzle/Tests/Http/Plugin/AsyncPluginTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle280:src/Guzzle/Common/StreamInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle280:src/Guzzle/Http/EntityBodyInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle280:src/Guzzle/Service/Description/ApiCommandInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/8204afa07590e0513ab319cf0e149d929bb56e71?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/a7d7bcd8b1facc1a700a4c36fe037647481cf53c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/95b8e87760420859f8185bdaa82d07e8df66014f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/d08d9cf7a8a45c5eb1d95afced77ea60d325f9f8?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle300:src/Guzzle/Http/Exception/MultiTransferException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle300:src/Guzzle/Service/Exception/CommandTransferException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle300:tests/Guzzle/Tests/Service/Exception/CommandTransferExceptionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle300:src/Guzzle/Service/Command/LocationVisitor/VisitorFlyweight.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle300:tests/Guzzle/Tests/Service/Command/LocationVisitor/VisitorFlyweightTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/09daeb8c666fb44499a0646d655a8ae36456575e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle300:src/Guzzle/Http/RedirectPlugin.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle300:tests/Guzzle/Tests/Http/RedirectPluginTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle300:src/Guzzle/Http/RedirectPlugin.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle300:src/Guzzle/Service/Command/ResponseClassInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle300:src/Guzzle/Service/Exception/ResponseClassException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle300:tests/Guzzle/Tests/Mock/CustomResponseModel.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle330:src/Guzzle/Stream/PhpStreamRequestFactory.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/56c3494c827f94301734da5651b2cd31fa2760aa?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle330:tests/Guzzle/Tests/Http/Message/Header/LinkTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/f9b5c5ea29127172a3e0fd27345bb10f61fe26ba?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/b3b2de9e20251ba70e004a141098da8aa2658b04?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/535b6da2cc47321e3060b0326e5aed571ea9cac7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/58bd18630c76e66cf3ba7633f2aa3378998e77ec?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/c0475f71c50107dfbed23d04e5845452a75aaa84?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/734b83be036141c7279fb1a2b3593c42120fe670?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/b5951ff784834cb98ca353ef64b2475ef5d67fb7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/04f47001a61ce26d338d2083777b71726ad01a12?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/f276ba618609cce32906b3c518819fcba592f942?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/e239e1d0ca7bf5926a6b4d40f7adc4697a5dd7e4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/09c0a3b3cb50e292a552679def8dcf1b9f043b4d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/1a80c3630201855c637aa2e14ff608f1b9139ec6?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/63f6a5607f2e6bfd03a61280b5792aae0afb83db?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/8290a10a7900ab01d59474b9413e06387808358d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/e05eacfb3f03d8b9c15053b65edb9a337b23b79f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/42fc1330b807bf87cba42bfb25e6a958444d1fcc?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/d01b395cfdf7e0df62f77a17b9210d592726e4d9?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/c29b5efa35df9696dea13edd4fa767c6b06c5944?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/343eb59d9041b21790f5b4d5970c1dd366457aab?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/c6562f944c77ddffe4462e7e5290486f86693f70?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/02e4d7d4b1e76501bddc0edb517ac26067a00869?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/afdd15cc85f15e834e54c57c4ac5198e883d45ab?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/c247f14124cb06583b02b5c2306b285a85337fcf?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/b82b39a4b6d280884b181135525fc808e6ceda2d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/ca897f2ff11dae0821597beaf82a3b90ab21b671?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/bb81b8b0697c56999a846df7164c1285157c38f1?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/0315e57854babd9b9981d95e321796c3b324e521?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/a8d4aa1226320733a0f07e54b34c3a7701b1cf74?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/04cb0746f4928d86b8b17730855a64b67bc00e86?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/0086ed54aedbd74184c43a6dcc4a2d07bd283397?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/a566921a145292f2fc2e1a9ca6c2bc7b4877fb24?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/95df1e442f81fd88840557d93140914f5bfad3d7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/fe91b722a39a7274f4ae0369f4721a18a93e367e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/984c9f755e011a66044a65942a2dc71a4745f589?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/c56d7fcb046e24852e13be5ef6a315200207eaf3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/e5218b76288550d3d5ec0f916412a7a1363115f3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle380:src/Client.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle380:src/ClientInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle380:src/HasDataTrait.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle380:src/Url.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle380:src/functions.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle380:tests/ClientTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle380:tests/CollectionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle380:tests/UrlTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle380:src/Message/Response.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle380:tests/Message/ResponseTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/c43f0046a3de1ead748995e0c32ad01203595bdb?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle400:src/QueryParser.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle400:tests/QueryParserTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle400:src/QueryParser.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle400:tests/QueryParserTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/368e1b4a04b05352d748d29dfcad719af7a3af1d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle400:tests/Event/ErrorEventTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/0bbd077893f2a241e5285de05cc3983437459833?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle500:tests/IntegrationTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle500:tests/IntegrationTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle510:src/RequestOptions.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle510:src/Middleware.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle510:src/PrepareBodyMiddleware.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle510:tests/MiddlewareTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle510:tests/PrepareBodyMiddlewareTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle600:tests/HandlerStackTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/51e879fd0c82c24fae8cfdc6344103274c49e7c3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/a73f78c4feaf5c9e653b875497e8a0f74b67eaf4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/59c49cc2c34adaa8d8d32a3206a6c8d44dc0c8b6?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle600:tests/ClientTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/962735c754f2a562a619b456a3aa4e614f0e5360?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle600:tests/MessageFormatterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle600:tests/Cookie/SetCookieTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle600:tests/Cookie/SetCookieTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle600:src/Message/MessageFactory.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle600:tests/Message/MessageFactoryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/337b61b33ffadaddb9b461a8c4fa8fe8f756b4f9?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/guzzle/guzzle/commits/755dc6cbd77273d8ece1ef7cc2972faf5e9c3c7c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle610:src/Message/Request.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle610:tests/Message/RequestTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle610:tests/ClientTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle610:tests/Handler/CurlFactoryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=guzzleguzzle610:tests/Handler/StreamHandlerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#####

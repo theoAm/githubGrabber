@@ -1,0 +1,13 @@
+SELECT
+  issues.number,
+  issues.title,
+  issues.body,
+  count(*) AS count_events
+FROM
+  issues
+  INNER JOIN issue_events ON issues.id = issue_events.issue_id
+WHERE
+  issues.repo_id = 3
+  AND issues.is_pull_request = 0
+GROUP BY issues.number
+HAVING count_events > 50

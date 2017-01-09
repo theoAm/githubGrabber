@@ -1,0 +1,218 @@
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/63bcc7683c79993058090c979dfbf71c8d1c323d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/ab4f76751dfa93b6a8fd9c5dc32c20dbc1a434a9?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit350:Tests/Regression/GitHub/74/Issue74Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit350:Tests/Regression/GitHub/74/NewException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit350:src/TextUI/ResultPrinter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit350:Tests/_files/ChangeCurrentWorkingDirectoryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/9804b551c481b7ed32174df902af4037cdef0526?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/62466e8e2c2f013fa496f642a2029e5c0abf742f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/f3608f968215730039046e9447e6444481f9135c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit350:Tests/Util/TypeTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/260f200d6fa79c2c0f08fe09662b998489dce0a3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/e48daa681510982f7f44515faf6a3972b452a2a6?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/19b1e2f344f94c7ba5ea6ef80329dabde684ac3e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit350:Tests/Regression/GitHub/322/Issue322Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/8f8a2275edf3beae912d6342908aad885d98688f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/4b672eaf97b556ff543f329392dbb671ce25eee2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/7f4676bf07cbe3280d8360375de550b0321fbd97?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit350:PHPUnit/Framework/Comparator/Double.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/1940bec31b05c89015e712141120660ef9b26daf?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit360:Tests/Regression/GitHub/433/Issue433Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit360:Tests/Regression/GitHub/445/Issue445Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/7ef575c961ef8a42646b9a30d5a37ad125290dce?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/f8bbe0adeba0b36beadaae971452775b95a52b26?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit360:Tests/Regression/GitHub/498/Issue498Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit360:Tests/Regression/GitHub/503/Issue503Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/9c0a619f0eb68b7af7e27e3c0a8693b8cc311c8f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/51f0623d644588dbb77d408bdcdd076b78efcc27?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/23658b8bc6f102c0afd4f2be0862d2922eba507c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/b96811e1830271a9d034c5394077bf6b21ca0c25?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/5e2c9447190dab2de1874a4f9bcde0648a36e91d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/a6a7f5d2f5fcd38f6303d8b42e4b75feec9237a2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/34c0c46a6058ed303107f95263eeca1d36bc2e48?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/1062207c7e797022c92fd84c8b164002113a1c95?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit360:Tests/Regression/GitHub/581/Issue581Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit360:PHPUnit/Runner/Filter/Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit360:Tests/_files/DataProviderFilterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit360:src/Util/Getopt.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/e11a6e53a7fd364df68507fa0106db68ab7f6066?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/45a60562dfe453814656c569a5a5751e55f81e07?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/97d0606153e01ef0e88984889a161f042dc09e45?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/67d1dd6b658b9217a8953baa031d834b20f311cb?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit370:Tests/Regression/GitHub/765/Issue765Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/67d1dd6b658b9217a8953baa031d834b20f311cb?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit370:Tests/_files/IniTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/9399eaba4feba22176ce74dec2d954118e1a91ad?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/97ccc6b98ed5458a7592527c0ceaa6ae17b7607b?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/97ccc6b98ed5458a7592527c0ceaa6ae17b7607b?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit370:Tests/_files/CustomPrinter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/94388d18cacf7fd4f51e1d20e4258e2a9c563447?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/5a3ebd5ea639aaee0326762de480e0d91d7ed3e8?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/6bc755274a4cf8e46590ba7ba5c0f6206ee0ca4b?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/97ccc6b98ed5458a7592527c0ceaa6ae17b7607b?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit370:PHPUnit/Framework/Comparator/DateTime.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit370:Tests/Regression/GitHub/873/Issue873Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit370:PHPUnit/Framework/Constraint/IsJson.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit370:Tests/Framework/TestFailureTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/db31559ac03a76a1153f6b1b2a31d3525e511d30?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:PHPUnit/Framework/Comparator/DateTime.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:Tests/Regression/GitHub/1057/Issue1057Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/1e5d93213e1c752f5fb83939834c6b8f79429368?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/a6241be88a193dd3eceb0c9eebfd7df03b05fe38?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:src/Extensions/RepeatedTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:src/TextUI/TestRunner.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:src/Util/TestDox/NamePrettifier.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:tests/Util/TestDox/NamePrettifierTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/d18652104b2ef6309c50caf16b82be13531426cf?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:src/Util/PHP.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:tests/Regression/GitHub/1149/Issue1149Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/c999fb2c3116b7b4862327819d00efc6c1534fb3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:src/TextUI/TestRunner.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:src/Framework/TestCase.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/ead7d89973a71c91241d7c2721683bbac2a7adc7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:src/Util/Configuration.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:tests/Util/ConfigurationTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:src/Framework/TestCase.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:src/Framework/TestSuite.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit3720:src/Util/Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/c5e6274b8f2bf983cf883bb375cf44f99aff200e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/3ba8622335cee9591eef0b56fcf2d3319903459f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/65d4966b4604f0d8a153d6c8c811bab282a338ee?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/1b216477eec2dca22847460473f29144cdb02843?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit409:tests/Regression/GitHub/1216/Issue1216Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit409:tests/Regression/GitHub/1216/bootstrap1216.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit409:PHPUnit/TextUI/TestRunner.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/fca53bc99c9b4af564e0a854b6af2496593052c7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/1c5107dbe47a06af6f78270a6e295952907734b3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit410:tests/Regression/GitHub/1265/Issue1265Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/0dff44fce27611d9eb6ead184ae5d9df6cf31e4a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/40f56a7ca7804aa6b4bcf7076a83e5b6d0ac608a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/d9afac88bb2b4546edfe8a07dc7d349cf87ad4bc?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/165b70a16a3ac8052dfab52a702e0c9753597f2a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit410:tests/_files/BeforeClassWithOnlyDataProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/6e175abfcd2e7a7a69b46582cbdedda2235606bd?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit410:tests/Regression/GitHub/1330/Issue1330Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/70def6112c9ed759b3ea5e80b27efb7e9b3af44b?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/a9a3c95b41f85216dba887bfdbef385bed2cc38e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/48686c31eadfcb7d14d01c6f11197191e30d2687?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/1cac77d545926eac5113ea0f1d1ebc1a74111f7f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/6d0f2cd663f0062c43583aac5600d4ef0f0d51e9?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/8d9ab2288a5e9eaacc824287fffffb70d205b4c5?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/480df08ac27be84929b465e7a114ac758521418e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit410:tests/Regression/GitHub/1374/Issue1374Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/f5ff17c286c1e7812fdc05ba32053c783552c906?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit420:tests/_files/DataProviderDebugTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit420:tests/Regression/GitHub/1437/Issue1437Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/f358e9722633a23940007862359eb25403f676bf?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit430:tests/Regression/GitHub/1468/Issue1468Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit430:tests/Regression/GitHub/1471/Issue1471Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit430:PHPUnit/Framework/Assert.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit430:Tests/Regression/GitHub/1472/Issue1472Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/5cae7a5354ac0aab351120c793195301b06cdac2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/998b0963abafd76df93b4faad0b54fe396e01abd?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit440:tests/Regression/GitHub/1553/Issue1553Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit440:tests/Regression/GitHub/1570/Issue1570Test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/79d9ef0243a5fd412a85c77c128e00f334d1536a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/9e88e177c7cc1b2c6d3f1c3e0477df8880e9ae8e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/901ef293cd4c637b70a1e7848b8ad16a58ee93dc?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/a2d497c873660d2e9136fa2f245173d67db0a593?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/5353688edb2f132e8772f35207062b88b06ab147?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/438c4f7ef9b9d476a18adb4c09745779152cd1b2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/28198ff881c0b5a6c64e34f8e44b039b772dbd2b?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/bba988269d03a0ad5f4aa6119b7b02c8179fbd32?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/1ebce8558f818280b12ac22aa727060041d9bb7e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/1c330b1b6e1ea8fd15f2fbea46770576e366855c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/c36790e39bd35dd633369a79baf33aec6903c0cf?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/f3b769d2b1acffc5dd890a6ae891c70ed975e5d2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/bd35c860cf6a8b084c3658199942c90e35e905be?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/c3f051b8e8f7972c55b1b205ae8ed1ba8541ad7a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit470:tests/_files/FullCoverageClass.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit470:tests/_files/FullCoverageClassTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit470:tests/_files/IgnoreCoverageClass.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit470:tests/_files/IgnoreCoverageClassTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit470:src/Framework/WarningTestCase.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit470:tests/_files/StopOnWarningTestSuite.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit470:tests/_files/StopsOnWarningTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/c718cc9ff854573b3c5ab7e0766495d43329f3ca?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/89c5eb1bda8e316ab83b3838e9c86c26513eb730?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/6c63af7cd61ddf26ead3bd7b71afd41a63c4bb92?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/742547c099910f162f11fbc54c0f3db5f89b6ecd?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/59d822072408408a48b4fdaf7b68da4671ea2a79?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/a23e3f65689331b054159daf8316cc3da3676596?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/25855eb71b11d41637b09b05f0107c70ac519cb2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/bfaac688baca1f9f26d131d9321c202db6646f7e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/ef7f5dbaadc3236671e23ee26797d357731fc19c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit500:tests/_files/CoverageNamespacedFunctionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit500:tests/_files/NamespaceCoveredFunction.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/b4ed5ae5da60cbcb9a462c855a831be4168e27a6?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/23230c749bc92efb29a15a7137d06fb08280a9ea?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/56b53eba1605562c6d2417174d69bcefaf60fc51?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/97b0b3102385a45f15e7fb860266c590cf0ff27b?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/dba61e8297effe7ba059edcc1f589e5dbfde2d6f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/7e3460293627c4c8b4356ff4c3fc96f35a43c9f9?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/7e386712a881ad734cb5fd2cbc5022ed7be63b32?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/sebastianbergmann/phpunit/commits/cc25e21996183ac27e3a6bde536875c62b3deca3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=sebastianbergmannphpunit530:tests/_files/TestDoxGroupTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#####

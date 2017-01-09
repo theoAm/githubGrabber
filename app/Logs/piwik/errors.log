@@ -1,0 +1,918 @@
+Not Found - [https://api.github.com/repos/piwik/piwik/pulls/7151?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/pulls/6825?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/pulls/6231?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/bdd9b53256b354bd1bf8ae88f88f27ab293e5136?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/457bdc04129502424c04bd2888bb8db5f8bbb772?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/bba064cef28e7472d152f466056169926c591db3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/457bdc04129502424c04bd2888bb8db5f8bbb772?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik0220:core/Tracker/Referrer.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik0220:tests/PHPUnit/Fixtures/SomeVisitsCustomVariablesCampaignsNotHeuristics.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik0220:core/Db/Schema/Mysql.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik0220:core/Tracker/VisitExcluded.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik0220:core/Updates/2.15.0-b3.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik0220:plugins/SitesManager/tests/Integration/ApiTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik0220:tests/PHPUnit/Fixtures/InvalidVisits.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik0220:tests/PHPUnit/Integration/Tracker/VisitTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAsset.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAsset/InMemoryUIAsset.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAsset/OnDiskUIAsset.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAssetCacheBuster.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAssetCatalog.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAssetCatalogSorter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAssetFetcher.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAssetFetcher/JScriptUIAssetFetcher.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAssetFetcher/StaticUIAssetFetcher.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAssetFetcher/StylesheetUIAssetFetcher.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAssetMerger.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAssetMerger/JScriptUIAssetMerger.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAssetMerger/StylesheetUIAssetMerger.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/AssetManager/UIAssetMinifier.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/Db/BatchInsert.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/Filesystem.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/Plugin/Manager.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/ProxyHttp.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/Theme.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:core/Twig.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:plugins/Proxy/Controller.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/AssetManager/PluginManagerMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/AssetManager/PluginMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/AssetManager/ThemeMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/AssetManager/UIAssetCacheBusterMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/AssetManager/UIAssetCacheBusterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/AssetManager/UIAssetCatalogSorterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/AssetManager/UIAssetMinifierTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/AssetManager/configs/merged-assets-disabled.ini.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/AssetManager/configs/merged-assets-enabled.ini.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/AssetManager/configs/plugins.ini.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/AssetManagerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/Core/ServeStaticFileTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik07:tests/PHPUnit/UITest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/2d9fa991657adc5430b3e80d94ae37ed9ca85304?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/92ed14b0620fd568106e94bd5ab325db43b7bb9a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik12:core/Tracker/VisitExcluded.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik16:core/DataAccess/LogAggregator.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik16:plugins/Goals/Archiver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik16:tests/PHPUnit/Integration/EcommerceOrderWithItemsTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:core/CronArchive.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/CustomVariables/Archiver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:core/Error.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:core/Plugin/ControllerAdmin.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/Actions/Reports/GetSiteSearchKeywords.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/CustomVariables/Reports/GetCustomVariables.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/CustomVariables/Reports/GetCustomVariablesValuesFromNameId.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/Dashboard/API.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/ExampleRssWidget/RssRenderer.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/Goals/Visualizations/Goals.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/Installation/FormSuperUser.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/MobileMessaging/SMSProvider.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/Provider/Reports/GetProvider.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/Referrers/API.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/Referrers/Controller.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/Referrers/Reports/GetCampaigns.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/Referrers/Reports/GetKeywordsFromCampaignId.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/ScheduledReports/API.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/UserCountry/LocationProvider/Default.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/UserCountry/LocationProvider/GeoIp/Pecl.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/UserCountry/LocationProvider/GeoIp/Php.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/UserCountry/LocationProvider/GeoIp/ServerBased.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/UserCountry/Reports/Base.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/UserCountry/Reports/GetCountry.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik17:plugins/UsersManager/Model.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik18:core/SettingsPiwik.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik18:core/Menu/MenuAbstract.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik18:core/Plugin/Controller.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik18:core/Plugin/Menu.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik18:plugins/Dashboard/Menu.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik18:plugins/MultiSites/Menu.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/83e9c6f2fb83d0eb905fa2bc26bc5a1939f39145?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/4d41d63138c89cfaefec67756efaa2a92c283a65?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik18:plugins/UserCountry/LocationProvider.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik18:plugins/UserCountry/LocationProvider/GeoIp/Php.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik18:tests/PHPUnit/Fixtures/ManyVisitsWithGeoIP.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik18:tests/PHPUnit/System/ManyVisitorsOneWebsiteTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik111:plugins/UserLanguage/Columns/Language.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Tracker/VisitExcluded.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/acb60ce853ad04fcc6e58436173497cbf39eee70?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/226ef830c369abf63bea6d350c7598fc3e8662e3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Plugin/MetadataLoader.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Tracker/Request.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Db.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Registry.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/ArchiveProcessor/Parameters.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Console.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/CronArchive.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Db.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Menu/MenuTop.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Plugin/ViewDataTable.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/SettingsPiwik.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Tracker/Referrer.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Tracker/Request.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Tracker/VisitExcluded.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/ViewDataTable/Factory.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/WidgetsList.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/API/ProcessedReport.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/ScheduledReports/API.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/DataTable/Map.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Menu/MenuAbstract.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Metrics.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/MetricsFormatter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Notification/Manager.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Singleton.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Tracker/VisitInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/View/ViewInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/ViewDataTable/Factory.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/ViewDataTable/RequestConfig.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/DevicesDetection/Updates/1.14.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/DevicesDetection/Updates/1.14.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Menu/MenuAbstract.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/CoreConsole/Commands/GenerateCommand.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Tracker/Referrer.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Tracker/Referrer.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/593bccd8297cef352349ba00ed84ef0d8b8ba476?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:config/environment/test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/UsersManager/UserAccessFilter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/UsersManager/tests/Fixtures/ManyUsers.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/UsersManager/tests/Integration/UserAccessFilterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/UsersManager/tests/Integration/UsersManagerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/UsersManager/tests/System/ApiTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Framework/Mock/FakeAccess.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Framework/TestCase/SystemTestCase.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Integration/AccessTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/CronArchive.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/ArchiveProcessor/Loader.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Updates/2.0-b9.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Updates/2.0-b9.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Integration/ArchiveCronTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/ArchiveProcessor/PluginsArchiver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/EventDispatcher.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Plugin/Manager.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Integration/Plugins/MobileMessagingTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Integration/Plugins/ScheduledReportsTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Db/BatchInsert.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/API/RowEvolution.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Plugin/MetadataLoader.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/Live/VisitorLog.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAsset.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAsset/InMemoryUIAsset.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAsset/OnDiskUIAsset.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAssetCacheBuster.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAssetCatalog.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAssetCatalogSorter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAssetFetcher.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAssetFetcher/JScriptUIAssetFetcher.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAssetFetcher/StaticUIAssetFetcher.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAssetFetcher/StylesheetUIAssetFetcher.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAssetMerger.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAssetMerger/JScriptUIAssetMerger.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAssetMerger/StylesheetUIAssetMerger.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/AssetManager/UIAssetMinifier.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Db/BatchInsert.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Filesystem.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Plugin/Manager.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/ProxyHttp.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Theme.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/Twig.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Core/AssetManager/PluginManagerMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Core/AssetManager/PluginMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Core/AssetManager/ThemeMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Core/AssetManager/UIAssetCacheBusterMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Core/AssetManager/UIAssetCacheBusterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Core/AssetManager/UIAssetCatalogSorterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Core/AssetManager/UIAssetMinifierTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Core/AssetManager/configs/merged-assets-disabled.ini.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Core/AssetManager/configs/merged-assets-enabled.ini.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Core/AssetManager/configs/plugins.ini.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/UITest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:plugins/CoreVisualizations/Visualizations/Graph.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/DataAccess/LogAggregator.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Fixtures/VisitsInDifferentTimezones.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/Integration/TimezonesTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/ArchiveProcessor/Loader.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:core/ArchiveProcessor/PluginsArchiver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik112:tests/PHPUnit/UITest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:plugins/SegmentEditor/SegmentFormatter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:plugins/SegmentEditor/SegmentSelectorControl.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:plugins/ImageGraph/StaticGraph/Pie3D.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:core/AssetManager/UIAssetMerger.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:core/DataTable/TableNotFoundException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:plugins/PrivacyManager/IPAnonymizer.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:core/Updates/2.2.3-b7.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:tests/PHPUnit/Unit/DataTable/RowTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:tests/PHPUnit/Unit/DataTableTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:core/AssetManager/UIAssetCacheBuster.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:core/AssetManager/UIAssetCacheBuster.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:tests/PHPUnit/Integration/Core/TrackerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:tests/PHPUnit/Integration/Core/TravisEnvironmentTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/7e977058c0804c6f5a9b4841c68f4ea96a1d8fe1?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:core/AssetManager/UIAssetMerger.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:core/View/RenderTokenParser.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:core/CliMulti.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:plugins/SegmentEditor/SegmentSelectorControl.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:plugins/CoreUpdater/Commands/Update.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik200:plugins/CoreUpdater/NoUpdatesFoundException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik210:plugins/CorePluginsAdmin/UpdateCommunication.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik210:plugins/CoreUpdater/UpdateCommunication.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik210:tests/PHPUnit/Integration/Plugins/CorePluginsAdmin/UpdateCommunicationTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik210:tests/PHPUnit/Integration/Plugins/CoreUpdater/UpdateCommunicationTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik210:plugins/VisitFrequency/Archiver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik210:plugins/Insights/Visualizations/Insight.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik210:plugins/UsersManager/LastSeenTimeLogger.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik210:core/Updates/2.2.0-b15.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik210:plugins/Installation/SystemCheck.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik210:tests/PHPUnit/Fixtures/SqlDump.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/a30788b3aeb642fc1c98b80e995e226a81643f1d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/c96640e8da4c6525003e66f61b4aad7333cbbadd?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/540540481ab981b5e843f3785140b41138db7faa?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/12bab31c9c3f8de3cf6c88a7e8cd81daf71ebc02?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/6ac60ae53ff6ce672f431ecc8fea584bbbdb30fb?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/500c1c3994376e876a41c6be09e89251a16172a6?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik220:core/Period/Factory.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik220:plugins/Installation/SystemCheck.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik220:plugins/Live/VisitorLog/Config.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik220:plugins/Actions/Actions/ActionSiteSearch.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik220:tests/PHPUnit/System/PrivacyManagerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik220:plugins/Installation/SystemCheck.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/d1acb00e32b4f3f51f1a98be6a562781b5a24be0?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/0b7dad0de98f86e423bb734b20f96a8643d667d8?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik230:core/Updates/2.4.0-b2.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik230:core/CliMulti/CliPhp.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/607e0e5dc7e849c3904f71f4642662d0b8ada63c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/4a5e904980b1ad9bbc8928bd8615a3de87d1d49b?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/84934d7c5a82ed6e563fb3e52563eb97a811bde5?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik230:core/CliMulti/CliPhp.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik230:plugins/Live/VisitorFactory.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik230:plugins/Live/VisitorInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik230:plugins/UserSettings/Columns/Language.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik230:core/Updates/2.4.0-b8.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/96a41f29823b029a36ee6603415d508d3f54f84e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/11c5452883c5c51ca8fd0b1326e9ae033bdf4110?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik230:plugins/Goals/Reports/BaseEcommerceItem.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/b61c90c982862924817ac1bfe534a94ab3fe462c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/874920ab1c338a9afe24d3c7229dc5be8e741987?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/f27fadab60457b116022941576b7a47bf0fa9683?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/8dbaf8222eab28c5804424b9db80429f8c6c4ea3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/dc82e9ba173128dfc93cf5519b37d03eb0232a9e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/39bcd0588f676e3a0ca4b4044789d047fa2cef84?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/fceea94fa0c822ed546ea5e42168ea0a1dc910c3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik240:core/Columns/Updater.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik240:plugins/Referrers/Columns/Base.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik240:plugins/Referrers/Columns/ReferrerVisitServerDate.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik240:tests/PHPUnit/Fixtures/VisitsTwoWebsitesWithAdditionalVisits.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik240:tests/PHPUnit/Integration/ArchiveInvalidationTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik240:tests/PHPUnit/Integration/ArchiveInvalidationTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik240:tests/PHPUnit/Integration/VisitsInPastInvalidateOldReportsTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/4fdd4a63e7ac44755102da9cc444765311e9ef58?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/c12768d036739865c79e7108f60cc5ec0aa607e2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/1ed09a54c122013d1c350aa7629efc0deb4a7305?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/316fc83e8f932001f9038098f4601aa17f1ee531?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/c874867a0268f1c4e8fab084772312ad1fed7ccc?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/e843ff49782f8a2946e3d7097289c1b0a3d2f574?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/6e36ad2d8717bdc4929b0f84110c8864a96b1fbf?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik240:plugins/API/tests/RowEvolutionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik240:plugins/DBStats/Reports/Base.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/1a96fba0f85046426cc0be76f8c6f4782f81733c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/ee3fddc32fa7043f6126ebb74b25ee296189c4a9?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/0b2979a88dd11cdfea6bf294c457d5f18c2465d7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/01c716cf0f592676fabae7afbd633e46f7071d71?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/1d4fc9ae7b66005d6758798c6fe5030128db42cd?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/641a655433dc990ff031dd5489ce2200a25853c8?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:tests/PHPUnit/Integration/TrackerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:plugins/UserSettings/Reports/GetLanguageCode.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:plugins/UserSettings/tests/Fixtures/LanguageFixture.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:plugins/UserSettings/tests/GetLanguageIntegrationTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:plugins/UserSettings/tests/Fixtures/LanguageFixture.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:core/BaseFactory.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:tests/PHPUnit/Core/FactoryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/b29beca38dd5157882eca162e01d7b03a072e6b9?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:tests/PHPUnit/Core/FrontControllerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/73fd29c06ad4d8c84fede96ed01cb8970386ad6f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/27e0ac1bb3c011a5ff33753192f289b0f453fe56?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/94cddbb3d3b1a3ca6d5297143a3b330cfedabad9?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/3f65dbd3a600b22081b53a36fdb302a28a154e52?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:plugins/Goals/tests/Integration/APITest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:tests/PHPUnit/System/TwoVisitorsTwoWebsitesDifferentDaysArchivingDisabledTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:tests/PHPUnit/System/TwoVisitorsTwoWebsitesDifferentDaysConversionsTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:tests/PHPUnit/System/TwoVisitorsTwoWebsitesDifferentDaysTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:tests/PHPUnit/System/BackwardsCompatibility1XTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:plugins/CoreHome/Columns/UserId.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:plugins/CoreHome/Visitor.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/c287c955a839e810792816d983f4e0a4e46a75de?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:plugins/UsersManager/tests/Integration/APITest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:plugins/CoreConsole/Commands/ClearCaches.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/095ff782b96231e7e14e24d6654196c857ec4ee5?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/7eeff47caed0725bdce64ce9e824cea2c8f9a327?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:core/Tracker/Model.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:tests/PHPUnit/System/DuplicateActionsTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik250:tests/PHPUnit/System/OneVisitorTwoVisitsTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/3904bb142e224ca1fd76669c7b8b4ab619e388d7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik280:plugins/DevicesDetection/Reports/GetBrowsers.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik280:core/Composer/ScriptHandler.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/98def7d08d2594e6070831679677c906b510b060?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/9664f27b7ff78ede0852f5bf332fb1657fe1e788?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/023652d3481a41f13167257e95447eb931934203?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/ed5e47d9a18c6888807adfd0b0c9cb7d87037920?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik280:core/DataAccess/InvalidatedReports.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/3657a8227daf997f66df7aa74398b7d6570857d4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/92dd485b4ad981a39aa53fb17144e660a90348c2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/26f7a686abecca3fb04c91bf006b644eddb05275?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/035e4fede4d870a18636f347120e16ec59f07d3f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/97682657c5e296a7d631d274caa749348595b213?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/d2d78dd7973811cfb3d0744655a2f0d763b0129a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/02690667941d853d3bb7cc3b4da22e7dc148d06f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/8baa702ade02bac530a444221969f8a971444be8?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/d88817f15db58647c38ee6b8778b4959e729cf48?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/c9280e1e0ce504f1ebf48fcb25699a7a6286c953?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/ff8f448db821ee8cd19602450abf5bca801cf2c0?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik280:core/DataAccess/LogQueryBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik280:core/DataAccess/ArchiveInvalidator.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik280:core/DataAccess/InvalidatedReports.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik280:core/Updates/2.11.1-b3.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:plugins/PrivacyManager/tests/Unit/DoNotTrackHeaderCheckerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/42ff2de07e6dc8907ba4a090d9a39d9fa4353a5f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/f2c2476e3afa058255244db096e07da7fe9e02dd?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/9cf16993f4017517a2a857d374c4bc45c0a152ea?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:core/DataAccess/RawLogDao.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:core/LogDeleter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:core/Plugin/Dimension/DimensionMetadataProvider.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:plugins/CoreAdminHome/Commands/DeleteLogsData.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:plugins/CoreAdminHome/tests/Integration/Commands/DeleteLogsDataTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:plugins/PrivacyManager/tests/Integration/DataPurgingTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:plugins/UserCountry/Commands/AttributeHistoricalDataWithLocations.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:plugins/UserCountry/VisitorGeolocator.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:plugins/UserCountry/tests/Integration/VisitorGeolocatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:tests/PHPUnit/Framework/TestDataHelper/LogHelper.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:tests/PHPUnit/Integration/LogDeleterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:tests/PHPUnit/Unit/Plugin/Dimension/DimensionMetadataProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/473db441f5abcf6aebc472d74e03eaa4fee4310c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:tests/PHPUnit/Integration/Tracker/SettingsTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik290:core/Exception/DatabaseSchemaIsNewerThanCodebaseException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/ab65800c119346f71f0ce254e69b0e43b847ac6d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/e6205408641cbf16b5043e0092e4414e3a4330ff?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/9b3bbac107c0ba91c4543f5da7ba7cf7f818f20d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:tests/travis/get_required_piwik_version.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/3a4807e0a006d78778d1225fdaa960121a1a4b9d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/e6a2e9eba8e475ac47298b0676b14983043ddb88?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/c631cc04bbaa9ea590d3900a7f38b8fc78a3f477?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/ff8c947985c3176a31d39b0ccf3c5fa56201b9e2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:core/Log/WebCronArchiveLogger.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:tests/PHPUnit/Integration/Log/LogTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/4bd5f17d6b6e5398cd98de270f2d5b0164c14aa4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/be8e96bdfcbc6360729de449b4a9d2c93d997919?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/d224b31aa239affca03f080850d7fbf84385327a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:core/DataAccess/RawLogDao.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:core/LogDeleter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:core/Plugin/Dimension/DimensionMetadataProvider.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:plugins/CoreAdminHome/Commands/DeleteLogsData.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:plugins/CoreAdminHome/tests/Integration/Commands/DeleteLogsDataTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:plugins/PrivacyManager/tests/Integration/DataPurgingTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:plugins/UserCountry/Commands/AttributeHistoricalDataWithLocations.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:plugins/UserCountry/VisitorGeolocator.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:plugins/UserCountry/tests/Integration/VisitorGeolocatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:tests/PHPUnit/Framework/TestDataHelper/LogHelper.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:tests/PHPUnit/Integration/LogDeleterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:tests/PHPUnit/Unit/Plugin/Dimension/DimensionMetadataProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:plugins/CoreAdminHome/tests/Integration/TasksTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/12b5b6e513920e3cb9d12821b690a8bfa4f658c4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/f85a7624f06f8821efa22acb43efb7cfdee05ab7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/9b64627050360c05d7a9261b4744c1dcb3312374?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/030b39f8414a306bbc17f8bc4929fb5de49ec367?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/91893f981de61eee4d45c2035b8c433bbcb14a30?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/63967b2b715c6130cebea75c976c04f1141e7960?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/5fdfe231d4e9e011c734113f567bdef8a0cb91d4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/f8b673b8afe08abdd93a20338be7c37a067f4473?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/a4671ac82103808d7d7ab09ca403c8c605ce3ca0?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/b328f74dc6d2e96bdb719f7e7b5a533452517bc6?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/34aa27393531c814727bdd593d31b3217c23e2d3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/bd4f78983409bd340da4036af02009326830295b?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:plugins/Ecommerce/Ecommerce.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:core/CronArchive/SegmentArchivingRequestUrlProvider.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:tests/PHPUnit/Unit/CronArchive/SegmentArchivingRequestUrlProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:plugins/UserLanguage/UserLanguage.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2100:plugins/CoreVisualizations/Metrics/Formatter/Numeric.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Columns/Updater.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/DbHelper.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/FrontController.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Plugin/Manager.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Updater.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Updater/UpdateObserver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Updates.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Updates/2.10.0-b5.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/CoreUpdater/Commands/Update.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/CoreUpdater/Commands/Update/CliUpdateObserver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/CoreUpdater/Controller.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/CoreUpdater/CoreUpdater.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/CoreUpdater/tests/Integration/Commands/UpdateTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/Installation/Controller.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:tests/PHPUnit/Framework/Fixture.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:tests/PHPUnit/Framework/TestCase/ConsoleCommandTestCase.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:tests/PHPUnit/Integration/Columns/UpdaterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:tests/PHPUnit/Integration/UpdaterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/CoreUpdater/Controller.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:config/global.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Piwik.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:libs/Zend/Validate/Hostname.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:libs/Zend/Validate/StringLength.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/UsersManager/tests/Integration/UsersManagerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:tests/PHPUnit/Integration/EmailValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Archive.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Archive/Parameters.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/ArchiveProcessor.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/ArchiveProcessor/Parameters.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/ArchiveProcessor/Rules.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/DataAccess/ArchiveSelector.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/DataAccess/ArchiveWriter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/DataTable.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/Actions/API.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/40536718468e3f6d4849e4b8377dc40d490ac8b5?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Config.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Config/ConfigNotFoundException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Console.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:tests/javascript/index.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/CoreConsole/Commands/DevelopmentSyncUITestScreenshots.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/404e3a79f72021fb5e767513276e1e2693022632?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/CorePluginsAdmin/MarketplaceApiClient.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/ff891a437d50f62fc7ba3624b275158025dcc91f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/Live/API.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:config/global.ini.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Tracker.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/Login/Controller.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:plugins/CoreUpdater/Commands/Update.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:tests/javascript/index.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/5eb657236e9bb7f6bee90d7707b2a858b28b4ef2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/Db.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:tests/PHPUnit/Unit/DbTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2111:core/CliMulti/Process.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/05f00b0fa27255186d6693b73e7238e7f10d85c6?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/b55d0aa9349716ffbe4d0e44ed608e3e8d1959e4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2120:plugins/SitesManager/tests/System/ApiTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/06480aa22bb72851b0b8285c869af623781d103f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/3d2dae9be76be94faa89bd0c3808ddef2cee2a3f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/85789e7c810223dca5b789b93cf380f62a3ff044?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/86b48190be4fed9ba72406e117b3508092bfa813?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/85790278f1c34d2b12c9a4d846df81daee905bb4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/8212ef0033dd2b3731fccd39c498f61d6ca81470?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/7b7e5ac94e4f3bdbd8f501b3c885fc5b28092802?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/a7137646fa4d738c6378686df6cd222fd291217f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/052d6c2c7e4588a889aaefbe50266616f152de70?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/baedd036aa7df2b26d283f4176950b495d2b2bc8?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/74ccc5e3652ce74ef57f87489032898377517d0c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/a00cf7649dfe3402911bf0ab5a22c44ad61e7d18?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/1b179bd25c6c8867d73bbe4119315c0c69ae9d19?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/d60ce12a794703c5ac86f64261d4a481fe38a4b7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/83fb6c7f7beee3f9056896fc5cb4dd9c163d204b?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/6f599235dc16b6af4285fc2b001792a21a8d5d81?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/3a4807e0a006d78778d1225fdaa960121a1a4b9d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/e6a2e9eba8e475ac47298b0676b14983043ddb88?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/5f4ed17e26f8bffae9f60002588a651ecfb2e547?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/5a0a08f474855e72bfae3106c9c12906a66a2c9d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2120:plugins/MultiSites/Dashboard.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2120:plugins/MultiSites/DataTable/Filter/NestedSitesLimiter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2120:plugins/MultiSites/tests/Integration/DashboardTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2120:tests/PHPUnit/Framework/Mock/FakeLogger.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2120:tests/PHPUnit/System/RawLogDaoTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/82bba3cb9c3bc107d05ac90692ca7df459f3d503?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2120:core/Application/Kernel/PluginList.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2120:tests/PHPUnit/Framework/TestingEnvironmentManipulator.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2120:tests/PHPUnit/Framework/TestingEnvironmentManipulator.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/4d5bad904443cc21397fa831a56745adbf97bac5?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2120:plugins/Diagnostics/Diagnostic/FileIntegrityCheck.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/5153a17aa31c06538277dce20bb93c2fb331eda6?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/e0b1fd4c29f254a1aa7265982a8d78fd4afcce22?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/d762d566b44d43b27c8d14560174fb978c208798?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/55a9811e27aeded02105d0f827b923a8e6619bc7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/6f8fe3da4072c604998e46c8422a39b11f69f721?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2140:core/Tracker/VisitorRecognizer.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/5e572d6b73c0e347ec11500964abe5f5729f6ac6?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/358280d33502be36934894cfe3063f66c455a52a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/4b4a1bf07170ef52b98b0e226f8c922dbb52df25?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/acbe497bf3235bd790264eb987082b26429b60aa?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/b804ddf85aeb9f86091be714d09ba1d341b3e7dd?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2140:tests/PHPUnit/System/OneVisitorOneWebsiteSeveralDaysDateRangeArchivingTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2140:core/Updates/2.15.0-b4.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/580d881274fa59ddc6d63ad73d9344fd345ce992?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2140:plugins/Diagnostics/Test/Integration/Commands/AnalyzeArchiveTableTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/e85f487b2ed69b5ca8f907653d14e1603a7575d0?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/239e369de45d86608c3f442a349d16db91b7302a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/7f40c7eaf1454477cbee3d8f2e5697a9b690846e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2140:core/NumberFormatter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/11b4943a71f50cdbf3de3a25f878bc2c723a6e50?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/7b964dc1b39391f789119f2c1c0652458a3472d7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/aded6cbc34440c30d4e3a21a3942b93361100dd7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2140:plugins/CoreAdminHome/Commands/OptimizeArchiveTables.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2140:plugins/CoreAdminHome/tests/Integration/Commands/OptimizeArchiveTablesTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/7a53f1520aee48faf2b9697a5681ac11770c5ff6?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2140:core/NumberFormatter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2140:tests/PHPUnit/Integration/NumberFormatterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/77a51ba043fb5c4b54c251efacfa8608709e48a1?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/a3606a1cf773209bbcdf63337f45555a4011508e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/4205128ee4083c2667fa193223838daf29728228?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/34e5cee2c71a33190f438429178611379bc6de84?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/d44cb0f5571c4d8b8dfd256944b65dd2fd62294d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/dc6c580b8638b5e7e5d97022e804e621b7895c2a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/1a9fafbc1cd557b193fab9c4623840ad25c6e9a5?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/319f6c4f971abfc1c25d4103cb7040bcb0ba16f4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/0a56c1723823234fc13f635a9f9c05b57d7a9b78?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/8e52f5627a4f7f708676eb7a49c38e45acbce302?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/12409002546a16c2f0f5ed10377428e0c0ad68be?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2150:tests/PHPUnit/System/TrackGoalsOneConversionPerVisitTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/be7ef4d3ee723b99836da6ac55b7375684d7f2b7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2150:plugins/SegmentEditor/SegmentFormatter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2150:plugins/SegmentEditor/tests/Integration/SegmentFormatterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/5fa37b1d30b67046cc0bde9693dde0fb53b8df42?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2150:libs/PiwikTracker/PiwikTracker.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/f2c2476e3afa058255244db096e07da7fe9e02dd?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/49d289afdd29ceff43079c6d0ab224a746ed97bb?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/3b0da5dac2714339e6d8539b8a16c56fa22a8723?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/d98d4e075373f09b278e21e99821a7207a642dfe?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/f0a11076ab33558eb4f9a8c3a029eb1f6640b537?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/9208c25b90c906c7160c77ac9f96ed8bbc648b3c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/db47e6f39f713dffe8bc6cad071e8e83fc6db60d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2150:tests/PHPUnit/Integration/MailTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/608efb7e7b969b946cfdddbd30f1ac27e13d70c0?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2150:tests/PHPUnit/Framework/Mock/FakeConfig.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2150:tests/PHPUnit/Framework/Mock/Plugin/Manager.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2150:tests/PHPUnit/Integration/PiwikPro/AdvertisingTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2150:core/PiwikPro/Advertising.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2150:plugins/PiwikPro/PiwikPro.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=piwikpiwik2150:plugins/PiwikPro/Widgets.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/7075a9a2f95f26462f90fc065b2a6b7ab1181d01?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/3ad45429636e8c7375e81ce69cddec04074e939d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/6e33543e76d17fc8d7f12769d267145552a8296e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/798717cc883fe9abeb3a3b676f05b1f9be49751f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/95696567a98d1d8b988f27761737580dc87a5d65?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/e1cfad8171d23f65b0cd9b10738b9f5a2925e4c7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/d98d4e075373f09b278e21e99821a7207a642dfe?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/piwik/piwik/commits/f0a11076ab33558eb4f9a8c3a029eb1f6640b537?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+#####

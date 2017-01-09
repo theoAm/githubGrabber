@@ -1,0 +1,565 @@
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/1a72585c2834e96f162ee7eb1af3cfe4ba5efdcf?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/8127258103d27a08528ede1cc37fd46db6ef2f1c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/cd606d15d38b08137f07be1bdc1e56902e6fa88a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/b9f13ac15b6a98956ac06271508a9668cced90f9?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/664317016770f117bfca69dff75736c92cc7cfa3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/45373d861a7eecbdc93e740a9d138a72184840bd?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/92ece557a677c2ce7ca4722d9eb323576bb45b98?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/8409110100df3348ccac43f9b8d4e36c7babe16f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/bdefbd61d17978261b6597078ef013711c053d32?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/115cb0b585fa49ae4eb30b6e4fd5de80799516f3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/91a91acde737bafbcd075cfd39250cb121cebe80?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/95797b2741adbaf1d0fd69cd1b99b5164aac16e0?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/6ac0e5232c5a2854b9edd51eada2f979b12db231?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/cc26a03794c0912e772c1c910a120b9223c4e5e4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/2cb51b0b30204e232f3a4b0e57ddb6f96c13fb3f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/05b4ef13e2a102d202023432166f527c7331ee5f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/e2ac2510ad2189e8445a614c2df899dd13343f0f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:tests/codeigniter/core/Common_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:tests/codeigniter/helpers/form_helper_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:helpers/form_helper.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:tests/codeigniter/core/Input_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:tests/codeigniter/core/Utf8_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:tests/mocks/core/utf8.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/a3b3209f33db346cdc5196fd6e551d3d7c2b2c3f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:libraries/Email.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:core/URI.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/57bf0c93ce8d130326c4179d06c4aa4d4f02fea2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:application/views/errors/error_404.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:application/views/errors/error_db.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:application/views/errors/error_general.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:libraries/Cache/drivers/Cache_file.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:models/ion_auth_model.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:libraries/User_agent.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/bc8efb8d41ca32f506cede51e2d2f0aa4e846fea?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/6f2c467cfb64fd62b346314e81838e9658659965?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/0d8905a70c52ee164079216ee07ba7b813a2644e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/992a7d8cdf8af43b96c64868b50b3ab8c9ebead1?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/eaeea42764d7fe56f718cc7b715c6931eaab8ebf?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/8b80824c662ef104b584718e535c7cf0f8700c57?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/23b84aff33f7b9bc1b4ec6ece98e9df36c609233?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/43d9081fb99caa28b615eeaea762be5eb5d8659c?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:system/database/drivers/pdo/subdrivers/pdo_oci_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter203:system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/1283c256af47a166ff78817cc3a05593d2024a47?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/6f2a75b38a8a6d2924668270d6a0a57e5ad3d04d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/945c09a5ddf0105e7f6e3abe1347d8b5acafa8cb?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/203edb075a538382d34be639861b913da3fcedf5?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/e1d0e07e60efce35ab53f7cfe4aee70f584d7fc4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/c66f31b9148b0904470e0eaf4ab6e060576eeb57?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/arabic/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/bulgarian/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/catalan/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/croatian/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/czech/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/estonian/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/finnish/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/greek/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/persian/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/pirate/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/slovak/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/slovenian/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/spanish/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/swedish/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:language/ukrainian/auth_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:system/database/drivers/pdo/subdrivers/pdo_dblib_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter210:system/database/drivers/pdo/subdrivers/pdo_sqlsrv_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/eab50eb4abd65f15c346b64acbd74b7c1c6f6bfd?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/4c49a2635ab91953432c1b1d433400de6d3192c0?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/7a06db449a8c5a863d1a7abf01cf45b01217d109?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/542b84a888feca4f9394e47958ecf4ae7f55eeea?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/57645f4a02f6063e6f5b98980b98b1e8587680bb?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/ab84b5d5f52a2674d262349050f5c4aef8372ee3?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/b8568340f3ad61f72f82309f10cfc1a7dc977edb?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/b2f6145473300918808d8f562036a9d520fd9d2e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/32170ef11f3ea87d5bb0d832efba085bfcd4decc?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/bde12a05f1fcba837f93c6d2a8ce32b9647345a2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:application/views/errors/cli/error_exception.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:application/views/errors/html/error_exception.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_result.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_utility.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_4d_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_cubrid_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_firebird_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_ibm_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_informix_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_oci_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_odbc_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_sqlite_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_result.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_utility.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/libraries/Cache/drivers/Cache_wincache.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/database/query_builder/get_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/database/query_builder/join_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/helpers/date_helper_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/autoloader.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/config/pdo/mysql.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/config/pdo/pgsql.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/config/pdo/sqlite.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/db.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_result.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_utility.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_4d_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_cubrid_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_firebird_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_ibm_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_informix_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_oci_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_odbc_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_sqlite_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_result.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_utility.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/libraries/Cache/drivers/Cache_wincache.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/database/query_builder/get_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/database/query_builder/join_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/helpers/date_helper_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/autoloader.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/config/pdo/mysql.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/config/pdo/pgsql.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/config/pdo/sqlite.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/db.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_result.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/ibase/ibase_utility.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_4d_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_cubrid_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_firebird_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_ibm_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_informix_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_oci_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_odbc_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_sqlite_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_result.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/drivers/sqlite3/sqlite3_utility.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/libraries/Cache/drivers/Cache_wincache.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/database/query_builder/get_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/database/query_builder/join_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/helpers/date_helper_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/autoloader.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/config/pdo/mysql.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/config/pdo/pgsql.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/config/pdo/sqlite.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/mocks/database/db.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/core/Common_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/helpers/form_helper_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/libraries/Session/drivers/Session_cookie.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/libraries/Session/drivers/Session_native.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/b60ea88257c58d23c97ac95a4291dbd22d4c54f9?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:core/Input.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/ebece75927bb0961268823b0f348c56762c5b07d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/57645f4a02f6063e6f5b98980b98b1e8587680bb?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/helpers/directory_helper_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/1e7a13cf2c75b0e813d5f04fc8ed92f630361af2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/57645f4a02f6063e6f5b98980b98b1e8587680bb?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:tests/codeigniter/libraries/Encrypt_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter212:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/a13e43d63dd5ee756350a9ea111b727e4292e562?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/3f790d81f79e9644c71d8741e6b5475337b7cd87?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter213:system/database/drivers/pdo/subdrivers/pdo_mysql_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/b4975bccb6949f61ed6b2ebfd7c966fdcd18a062?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/7d508a1ec596de71b166119a4f5d3eec2ff67450?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter213:system/database/drivers/pdo/subdrivers/pdo_cubrid_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter213:system/database/drivers/pdo/subdrivers/pdo_mysql_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter213:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter213:tests/codeigniter/core/Output_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter213:system/libraries/Session/drivers/Session_cookie.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/5bd5ee7417f21b8fa1ab9be644d00fb28598f569?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/afe5684883a8aeb4cdbedc35dee4e94ca9dd0407?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/5b5dd1857020e1943cff032b188468cd821b1ca4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/c7eb7250728701be5dd59282ecd6cbad1c6094a0?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/309f60684bc4cc2c6d974e527d910ee6ee86c178?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter213:tests/codeigniter/libraries/Parser_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/cc01c95a8a05f0231b075edf6dee572bb281d36a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter213:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter213:system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter213:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/48899efbd110d6c13de11a32bd24b56b9b5b0155?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter214:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter214:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/dcc7c541bebe183516d08899bff8c654ff4acb01?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/f261319aa10dca283bd8322a3258e7e3e914213f?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/570ad97622d5f70175d3508196a9a4017c65bb19?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/6692c53372e9a1561c4e4e7c67dede51e4ba424a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/a5c249abe14ef712480b59df29d202b233262eab?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter214:system/core/Log.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter214:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter214:system/libraries/Session/Session.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter214:system/libraries/Session/drivers/Session_cookie.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter214:system/core/Log.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter214:tests/mocks/core/common.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter214:tests/codeigniter/core/Security_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/1a18041cd550f5810c2eb42f7fd68635747c4e75?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/7fcbe1b7b44507018f4437c045778e86dc6b37e4?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/8a5bec83bf95f06cd266a51c577da516604d4727?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/30b4ac6233535085e035f1e5d7794ae671df3792?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/984f6c5cac3a762d775a5533cfcb104c7a6313f0?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter214:system/libraries/Session/drivers/Session_redis_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/d0c570d3cca44c805291d651b306387c8eb2e05a?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/8d66bcf398e2a0acb5e1756f8aed141750dee9e7?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/sqlite3/sqlite3_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/libraries/Cache/drivers/Cache_redis.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/987ca6bf2161e0d4a6db0f5c487e2745b1795750?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/df7ea5a1934f5fd2b4ff3cb5a1f83413eb434267?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/c958fa48eb21d74c39918baba9b750aa8ff610ec?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/cb25a630a5baf8cd078a46c4596de9243fb74f80?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:tests/codeigniter/core/Common_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/bcit-ci/CodeIgniter/commits/d581738bbe30505839aa15881baebf98472a4fa5?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:tests/mocks/core/common.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:application/config/memcached.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:application/controllers/Welcome.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:application/views/errors/cli/error_404.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:application/views/errors/cli/error_db.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:application/views/errors/cli/error_general.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:application/views/errors/cli/error_php.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:application/views/errors/html/error_404.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:application/views/errors/html/error_db.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:application/views/errors/html/error_general.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:application/views/errors/html/error_php.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/core/Log.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/core/compat/hash.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/core/compat/mbstring.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/core/compat/password.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/core/compat/standard.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/ibase/ibase_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/ibase/ibase_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/ibase/ibase_result.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/ibase/ibase_utility.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_4d_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_4d_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_cubrid_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_cubrid_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_dblib_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_firebird_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_firebird_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_ibm_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_ibm_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_informix_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_informix_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_mysql_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_oci_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_oci_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_odbc_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_odbc_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_pgsql_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_sqlite_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_sqlite_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_sqlsrv_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/sqlite3/sqlite3_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/sqlite3/sqlite3_forge.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/sqlite3/sqlite3_result.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/sqlite3/sqlite3_utility.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/language/english/pagination_lang.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/libraries/Cache/drivers/Cache_redis.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/libraries/Cache/drivers/Cache_wincache.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/libraries/Encryption.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/libraries/Javascript/Jquery.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/libraries/Session/Session.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/libraries/Session/drivers/Session_cookie.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/libraries/Session/drivers/Session_native.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/libraries/Encryption.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:tests/codeigniter/libraries/Encryption_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/libraries/Session/drivers/Session_cookie.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/database/DB_query_builder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:tests/codeigniter/core/Config_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter220:system/libraries/Session/Session_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter221:system/libraries/Session/drivers/Session_database_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter221:system/libraries/Session/drivers/Session_files_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter221:system/libraries/Session/drivers/Session_redis_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter221:system/libraries/Session/drivers/Session_database_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter221:system/libraries/Session/drivers/Session_memcached_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter221:system/libraries/Session/drivers/Session_redis_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter221:system/libraries/Session/drivers/Session_files_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter221:system/libraries/Session/Session.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter221:system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter301:tests/codeigniter/database/query_builder/where_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter301:tests/codeigniter/core/Security_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter303:tests/codeigniter/database/DB_driver_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter303:tests/codeigniter/helpers/html_helper_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter303:tests/codeigniter/libraries/Form_validation_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter304:tests/codeigniter/libraries/Form_validation_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter304:tests/codeigniter/database/query_builder/join_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter305:tests/codeigniter/libraries/Form_validation_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=bcit-ciCodeIgniter306:tests/codeigniter/core/Config_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#####

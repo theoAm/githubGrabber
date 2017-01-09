@@ -1,0 +1,9 @@
+SELECT
+  count(*)
+FROM
+  issues
+  INNER JOIN issue_events ON issues.id = issue_events.issue_id
+WHERE issues.repo_id = 1
+  AND issues.is_pull_request = 0
+  AND issue_events.event_description = 'closed'
+  AND issue_events.commit_sha IS NOT NULL;

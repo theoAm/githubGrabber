@@ -1,0 +1,121 @@
+Not Found - [https://api.github.com/repos/slimphp/Slim/commits/00b6ca8e5751dbda6ea68013ba14f70097c3a4fc?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim150:Slim/Middleware/SessionCookie.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim150:tests/Middleware/SessionCookieTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim150:Slim/Http/Headers.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim150:tests/Http/HeadersTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim150:Slim/Middleware/ContentTypes.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim150:tests/Middleware/ContentTypesTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim160:Slim/LogWriter.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim160:tests/LogWriterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim240:Slim/App.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim240:Slim/Collection.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim240:tests/CollectionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/slimphp/Slim/commits/6ed24cfc5648532fd1f452d8dc0a04b6fcf802f5?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Http/Uri.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/Http/UriTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/slimphp/Slim/commits/0ac23f300c7330df4484c523612e18535a3ad480?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/slimphp/Slim/commits/bb8bd2bdba236764bcba8154467e60312194312e?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/slimphp/Slim/commits/eeb7b4904889bd676b2062b1204b73a25451dc60?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Interfaces/RouterInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/MiddlewareAwareTrait.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/MiddlewareAwareTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/_files/StaticCallable.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/slimphp/Slim/commits/34d20b1549c936f3d15bb52fe728b314d5f8d162?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Http/UploadedFile.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/Http/UploadedFilesTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Http/Uri.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/Http/UriTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/App.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Http/RequestBody.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Http/Stream.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/AppTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/Http/BodyTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/Http/RequestBodyTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/Http/UploadedFilesTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Container.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/slimphp/Slim/commits/d6ba2e9d4eb1448df1189e53bd65b3bec6a563d2?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/App.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Http/Uri.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Container.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Handlers/Error.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/AppTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Interfaces/RouterInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/slimphp/Slim/commits/8eea4ebf0140d2a847cfb25934bcb3d41faab9d5?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Http/Uri.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/Http/UriTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/AppTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/Http/Uri.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:tests/Http/UriTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim260:Slim/App.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim310:tests/AppTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim310:tests/ContainerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim310:tests/Http/RequestTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim320:tests/Mocks/InvocationStrategyTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim320:tests/RouteTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim320:tests/Http/RequestTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim320:tests/Http/UploadedFilesTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim320:tests/Http/RequestTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim330:tests/AppTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim330:tests/RouterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Not Found - [https://api.github.com/repos/slimphp/Slim/commits/fca0ab6b49fd4c93be060432675f1dcfee30ac1d?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+Not Found - [https://api.github.com/repos/slimphp/Slim/commits/adbf6be0af0fa3004730ec84e61fe2f0b3e0bb96?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim330:tests/AppTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim330:tests/Mocks/SmallChunksStream.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim330:tests/Http/StreamTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=slimphpSlim340:tests/Handlers/AbstractHandlerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#####
