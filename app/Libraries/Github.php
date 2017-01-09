@@ -31,7 +31,7 @@ class Github {
             $this->repo_id = $repo_id;
             $this->repo_owner = $repo_owner;
             $this->repo_name = $repo_name;
-            $this->access_token = "1a4bb7504b6158eaeb36ff3598f9bbc5d3ea703f";
+            $this->access_token = $_ENV['GITHUB_ACCESS_TOKEN'];
             $this->per_page = 100;
             $this->api_url = "https://api.github.com";
             $this->logger = new FileLogger();
