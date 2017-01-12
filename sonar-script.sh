@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 if [ "$1" == "" ]; then
     echo "Repo name missing!";
     exit;
@@ -27,8 +28,7 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
     if echo "$out" | grep -q "$find"; then
 
         #sonar analysis
-        echo sonar-scanner -Dsonar.projectKey="$1:$line" -Dsonar.projectName="$1:$line" -Dsonar.projectVersion="$line" -Dsonar.sources=. -Dsonar.language=php -Dsonar.sourceEncoding=UTF-8
-        exit;
+        sonar-runner -Dsonar.projectKey="$1:$line" -Dsonar.projectName="$1:$line" -Dsonar.projectVersion="$line" -Dsonar.sources=. -Dsonar.language=php -Dsonar.sourceEncoding=UTF-8
 
     fi
 
