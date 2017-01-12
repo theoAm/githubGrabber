@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="dataSourceStorageLocal">
-    <data-source name="githubGrabber" uuid="2acb690f-d99c-47a8-8afc-5a45f6c53bd9">
-      <secret-storage>master_key</secret-storage>
-    </data-source>
-  </component>
-</project>
