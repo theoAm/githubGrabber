@@ -310,7 +310,7 @@ class Reporter implements Reporting {
 
         $metricKeys = 'sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations';
         $componentKey = $this->repo_owner . $this->repo_name . $release . ':' . $file->filename;
-        $url = 'http://195.251.210.148:9000/api/measures/component?metricKeys=' . $metricKeys . '&componentKey=' . $componentKey;
+        $url = 'http://' . $_ENV['SONARQUBE_HOST'] . '/api/measures/component?metricKeys=' . $metricKeys . '&componentKey=' . $componentKey;
 
         try {
 
@@ -666,7 +666,7 @@ class Reporter implements Reporting {
 
         $metricKeys = 'sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations';
         $componentKey = $this->repo_name . ':' . $sha . ':' . $file->filename;
-        $url = 'http://195.251.210.148:9000/api/measures/component?metricKeys=' . $metricKeys . '&componentKey=' . $componentKey;
+        $url = 'http://' . $_ENV['SONARQUBE_HOST'] . '/api/measures/component?metricKeys=' . $metricKeys . '&componentKey=' . $componentKey;
 
         try {
 
