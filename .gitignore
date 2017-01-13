@@ -4,3 +4,4 @@
 .env
 /.idea
 /database/database.sqlite
+composer.lock
