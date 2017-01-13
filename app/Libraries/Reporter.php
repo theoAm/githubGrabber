@@ -613,12 +613,13 @@ class Reporter implements Reporting {
                     }
 
                     foreach ($commit_files as $commit_file) {
+
                         $metrics = $this->getFileMetricsFromSonarQube($commit_file, $commit->sha);
                         if(!$metrics) {
                             continue;
                         }
-                        $previous_metrics = $this->getFileMetricsFromSonarQube($commit_file, $previous_commit->sha);
 
+                        $previous_metrics = $this->getFileMetricsFromSonarQube($commit_file, $previous_commit->sha);
                         if(!$previous_metrics) {
                             $previous_metrics = [
                                 "minor_violations" => "0",
@@ -641,7 +642,24 @@ class Reporter implements Reporting {
                             "sqale_index" => floatval($metrics["sqale_index"]) - floatval($previous_metrics["sqale_index"]),
                         ];
 
-                        $report = $this->repo_name . ','
+                        if(
+                            $metrics['info_violations'] ||
+                            $metrics['minor_violations'] ||
+                            $metrics['major_violations'] ||
+                            $metrics['critical_violations'] ||
+                            $metrics['blocker_violations']
+                        ) {
+
+                            $violations = $this->getFileBrokenRulesFromSonarQube($commit_file, $commit->sha);
+                            $previous_violations = $this->getFileBrokenRulesFromSonarQube($commit_file, $previous_commit->sha);
+
+                            /**
+                             * EDOOOOOOOOOOOOOOOOOOOOOOO
+                             */
+
+                        }
+
+                        /*$report = $this->repo_name . ','
                             . $commit->committer . ','
                             . $commit->sha . ','
                             . $comparison['sqale_index'] . ','
@@ -651,7 +669,7 @@ class Reporter implements Reporting {
                             . $comparison['major_violations'] . ','
                             . $comparison['minor_violations'] . ','
                             . $comparison['info_violations'];
-                        $this->logger->log($report, $this->repo_name . '/commitsTD.log');
+                        $this->logger->log($report, $this->repo_name . '/commitsTD.log');*/
                     }
 
                     echo ($progress % 10 == 0) ? $progress : ".";
@@ -703,6 +721,59 @@ class Reporter implements Reporting {
 
         }
 
+    }
+
+    private function getFileBrokenRulesFromSonarQube(\App\CommitFile $file, $sha) {
+
+        $componentKey = $this->repo_name . ':' . $sha . ':' . $file->filename;
+        $url = 'http://' . $_ENV['SONARQUBE_HOST'] . '/api/issues/search?componentKeys=' . $componentKey;
+
+        try {
+
+            $rules_broken = [];
+
+            $json = json_decode(file_get_contents($url));
+
+            if(!$json->total) {
+                return $rules_broken;
+            }
+
+            foreach ($json->issues as $i) {
+                $rules_broken[$i->rule] = '';
+            }
+
+            foreach ($rules_broken as $rkey => $rvalue) {
+                $rule_info = $this->getRuleInfoFromSonarQube($rkey);
+                if(!$rule_info) {
+                    continue;
+                }
+                $rules_broken[$rkey] = $rule_info['name'];
+            }
+
+            return $rules_broken;
+
+        } catch (\Exception $ex) {
+
+            $this->logger->log($ex->getMessage(), $this->repo_name . "/errors.log");
+            return FALSE;
+
+        }
+
+    }
+
+    private function getRuleInfoFromSonarQube($rule_key)
+    {
+        $url = 'http://' . $_ENV['SONARQUBE_HOST'] . '/api/rules/search?rule_key=' . $rule_key;
+        $json = json_decode(file_get_contents($url));
+        if(!$json->total) {
+            return false;
+        }
+        $rule = $json->rules[0];
+        return [
+            'name' => $rule->name,
+            'severity' => $rule->severity,
+            'defaultDebtChar' => $rule->defaultDebtChar
+        ];
     }
 
 }
