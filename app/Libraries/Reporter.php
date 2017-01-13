@@ -632,15 +632,8 @@ class Reporter implements Reporting {
                             ];
                         }
 
-                        $comparison = [
-                            "minor_violations" => floatval($metrics["minor_violations"]) - floatval($previous_metrics["minor_violations"]),
-                            "info_violations" => floatval($metrics["info_violations"]) - floatval($previous_metrics["info_violations"]),
-                            "major_violations" => floatval($metrics["major_violations"]) - floatval($previous_metrics["major_violations"]),
-                            "sqale_debt_ratio" => floatval($metrics["sqale_debt_ratio"]) - floatval($previous_metrics["sqale_debt_ratio"]),
-                            "blocker_violations" => floatval($metrics["blocker_violations"]) - floatval($previous_metrics["blocker_violations"]),
-                            "critical_violations" => floatval($metrics["critical_violations"]) - floatval($previous_metrics["critical_violations"]),
-                            "sqale_index" => floatval($metrics["sqale_index"]) - floatval($previous_metrics["sqale_index"]),
-                        ];
+                        $violations_added_str = '';
+                        $violations_resolved_str = '';
 
                         if(
                             $metrics['info_violations'] ||
@@ -653,22 +646,72 @@ class Reporter implements Reporting {
                             $violations = $this->getFileBrokenRulesFromSonarQube($commit_file, $commit->sha);
                             $previous_violations = $this->getFileBrokenRulesFromSonarQube($commit_file, $previous_commit->sha);
 
+                            $violations_added = [];
+                            $violations_resolved = [];
+
                             /**
-                             * EDOOOOOOOOOOOOOOOOOOOOOOO
+                             * SEARCH FOR VIOLATIONS ADDED
                              */
+                            foreach ($violations as $nvkey => $nvvalue) {
+                                if(!array_key_exists($nvkey, $previous_violations)) {
+                                    $violations_added[$nvkey] = $nvvalue;
+                                }
+                            }
+                            $tmp = [];
+                            if($violations_added) {
+                                foreach ($violations_added as $vakey => $vavalue) {
+                                    $tmp[] = $vakey . '---' . $vavalue;
+                                }
+                                $violations_added_str = implode('|||', $tmp);
+                            }
+
+                            /**
+                             * SEARCH FOR VIOLATIONS RESOLVED
+                             */
+                            foreach ($previous_violations as $pvkey => $pvvalue) {
+                                if(!array_key_exists($pvkey, $violations)) {
+                                    $violations_resolved[$pvkey] = $pvvalue;
+                                }
+                            }
+                            $tmp = [];
+                            if($violations_resolved) {
+                                foreach ($violations_resolved as $vrkey => $vrvalue) {
+                                    $tmp[] = $vrkey . '---' . $vrvalue;
+                                }
+                                $violations_resolved_str = implode('|||', $tmp);
+                            }
 
                         }
+
+                        $comparison = [
+                            "minor_violations_diff" => intval($metrics["minor_violations"]) - intval($previous_metrics["minor_violations"]),
+                            "info_violations_diff" => intval($metrics["info_violations"]) - intval($previous_metrics["info_violations"]),
+                            "major_violations_diff" => intval($metrics["major_violations"]) - intval($previous_metrics["major_violations"]),
+                            "sqale_debt_ratio_diff" => floatval($metrics["sqale_debt_ratio"]) - floatval($previous_metrics["sqale_debt_ratio"]),
+                            "blocker_violations_diff" => intval($metrics["blocker_violations"]) - intval($previous_metrics["blocker_violations"]),
+                            "critical_violations_diff" => intval($metrics["critical_violations"]) - intval($previous_metrics["critical_violations"]),
+                            "sqale_index_diff" => floatval($metrics["sqale_index"]) - floatval($previous_metrics["sqale_index"]),
+                            "violation_added" => $violations_added_str,
+                            "violation_resolved" => $violations_resolved_str,
+                        ];
+
+
+                        /**
+                         * EDOOOOOOOOOOOOOOO
+                         *
+                         * anti na to logaro se arxeio na to eisago stin vash
+                         */
 
                         /*$report = $this->repo_name . ','
                             . $commit->committer . ','
                             . $commit->sha . ','
-                            . $comparison['sqale_index'] . ','
-                            . $comparison['sqale_debt_ratio'] . ','
-                            . $comparison['blocker_violations'] . ','
-                            . $comparison['critical_violations'] . ','
-                            . $comparison['major_violations'] . ','
-                            . $comparison['minor_violations'] . ','
-                            . $comparison['info_violations'];
+                            . $comparison['sqale_index_diff'] . ','
+                            . $comparison['sqale_debt_ratio_diff'] . ','
+                            . $comparison['blocker_violations_diff'] . ','
+                            . $comparison['critical_violations_diff'] . ','
+                            . $comparison['major_violations_diff'] . ','
+                            . $comparison['minor_violations_diff'] . ','
+                            . $comparison['info_violations_diff'];
                         $this->logger->log($report, $this->repo_name . '/commitsTD.log');*/
                     }
 
@@ -755,7 +798,7 @@ class Reporter implements Reporting {
         } catch (\Exception $ex) {
 
             $this->logger->log($ex->getMessage(), $this->repo_name . "/errors.log");
-            return FALSE;
+            return [];
 
         }
 
