@@ -13,6 +13,7 @@ use Mockery\CountValidator\Exception;
 class Reporter implements Reporting {
 
     protected $slow_process;
+    protected $repo_id;
     protected $repo_owner;
     protected $repo_name;
     protected $github;
@@ -24,12 +25,11 @@ class Reporter implements Reporting {
 
             $repo_id = \App\Repo::findRepoId($repo_owner, $repo_name);
             if(!$repo_id) {
-
                 throw new Exception('Repo not found!');
-
             }
 
             $this->slow_process = $slow_process;
+            $this->repo_id = $repo_id;
             $this->repo_owner = $repo_owner;
             $this->repo_name = $repo_name;
             $this->github = new Github($this->repo_owner, $this->repo_name, $this->slow_process);
@@ -691,28 +691,28 @@ class Reporter implements Reporting {
                             "blocker_violations_diff" => intval($metrics["blocker_violations"]) - intval($previous_metrics["blocker_violations"]),
                             "critical_violations_diff" => intval($metrics["critical_violations"]) - intval($previous_metrics["critical_violations"]),
                             "sqale_index_diff" => floatval($metrics["sqale_index"]) - floatval($previous_metrics["sqale_index"]),
-                            "violation_added" => $violations_added_str,
-                            "violation_resolved" => $violations_resolved_str,
+                            "violations_added" => $violations_added_str,
+                            "violations_resolved" => $violations_resolved_str,
                         ];
 
 
-                        /**
-                         * EDOOOOOOOOOOOOOOO
-                         *
-                         * anti na to logaro se arxeio na to eisago stin vash
-                         */
+                        $tdDiff = new \App\TdDiff();
+                        $tdDiff->repo_id = $this->repo_id;
+                        $tdDiff->committer = $json->committer;
+                        $tdDiff->commit_sha = $commit->sha;
+                        $tdDiff->previous_commit_sha = $previous_commit->sha;
+                        $tdDiff->filename = $commit_file->filename;
+                        $tdDiff->sqale_index_diff = $comparison['sqale_index_diff'];
+                        $tdDiff->sqale_debt_ratio_diff = $comparison['sqale_debt_ratio_diff'];
+                        $tdDiff->blocker_violations_diff = $comparison['blocker_violations_diff'];
+                        $tdDiff->critical_violations_diff = $comparison['critical_violations_diff'];
+                        $tdDiff->major_violations_diff = $comparison['major_violations_diff'];
+                        $tdDiff->minor_violations_diff = $comparison['minor_violations_diff'];
+                        $tdDiff->info_violations_diff = $comparison['info_violations_diff'];
+                        $tdDiff->violations_added = $comparison['violations_added'];
+                        $tdDiff->violations_resolved = $comparison['violations_resolved'];
+                        $tdDiff->save();
 
-                        /*$report = $this->repo_name . ','
-                            . $commit->committer . ','
-                            . $commit->sha . ','
-                            . $comparison['sqale_index_diff'] . ','
-                            . $comparison['sqale_debt_ratio_diff'] . ','
-                            . $comparison['blocker_violations_diff'] . ','
-                            . $comparison['critical_violations_diff'] . ','
-                            . $comparison['major_violations_diff'] . ','
-                            . $comparison['minor_violations_diff'] . ','
-                            . $comparison['info_violations_diff'];
-                        $this->logger->log($report, $this->repo_name . '/commitsTD.log');*/
                     }
 
                     echo ($progress % 10 == 0) ? $progress : ".";

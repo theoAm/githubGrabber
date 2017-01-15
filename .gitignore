@@ -5,3 +5,4 @@
 /.idea
 /database/database.sqlite
 composer.lock
+app/Logs
