@@ -12,7 +12,7 @@ fi
 cd ~/Desktop/commits
 
 if [ ! -f "$1.txt" ]; then
-    sqlite3 database.sqlite "select commits.sha from commits inner join repos on repos.id = commits.repo_id AND repos.name = '"$1"' order by committed_at ASC limit 5;" > "$1.txt"
+    sqlite3 ~/projects/githubgrabber/database/database.sqlite "select commits.sha from commits inner join repos on repos.id = commits.repo_id AND repos.name = '"$1"' order by committed_at ASC;" > "$1.txt"
 fi
 
 if [ ! -d "$1" ]; then

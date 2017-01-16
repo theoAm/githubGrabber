@@ -25,7 +25,7 @@ class HomeController extends Controller
     function __construct()
     {
         $this->repo_owner = "illuminate";
-        $this->repo_name = "cache";
+        $this->repo_name = "queue";
         $this->slow_process = true;
         $this->github = new Github($this->repo_owner, $this->repo_name, $this->slow_process);
         $this->reporter = new Reporter($this->repo_owner, $this->repo_name, $this->slow_process);
@@ -45,8 +45,8 @@ class HomeController extends Controller
 
     function fetchGithubData()
     {
-        echo 'exiting...';exit;
-        $this->github->getIssuesAndPulls();
+        //echo 'exiting...';exit;
+        //$this->github->getIssuesAndPulls();
         $this->github->getCommits();
 
     }
