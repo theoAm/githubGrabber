@@ -45,10 +45,9 @@ class HomeController extends Controller
 
     function fetchGithubData()
     {
-        //echo 'exiting...';exit;
-        //$this->github->getIssuesAndPulls();
+        echo 'exiting...';exit;
+        $this->github->getIssuesAndPulls();
         $this->github->getCommits();
-
     }
 
     function analyzeGithubData()

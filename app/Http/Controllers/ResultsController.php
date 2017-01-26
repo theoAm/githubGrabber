@@ -72,47 +72,29 @@ class ResultsController extends Controller
                 ->count();
 
             $sqale_index_diff = 0;
-            $v_added = [];
-            $v_resolved = [];
+            $v_added_str = '';
+            $v_resolved_str = '';
             foreach ($tdDiffs as $tdDiff) {
-                $sqale_index_diff += $tdDiff->sqale_index_diff;
-                $violations_added = $tdDiff->violations_added;
-                $violations_resolved = $tdDiff->violations_resolved;
-                if($violations_added) {
-                    $tmp = explode('|||', $violations_added);
-                    if($tmp) {
-                        foreach ($tmp as $v) {
-                            $tmp2 = explode('---', $v);
-                            if($tmp2) {
-                                $vkey = $tmp2[0];
-                                $vname = $tmp2[1];
-                                $v_added[$vkey] = $vname;
-                            }
-                        }
-                    }
-                }
-                if($violations_resolved) {
-                    $tmp = explode('|||', $violations_resolved);
-                    if($tmp) {
-                        foreach ($tmp as $v) {
-                            $tmp2 = explode('---', $v);
-                            if($tmp2) {
-                                $vkey = $tmp2[0];
-                                $vname = $tmp2[1];
-                                $v_resolved[$vkey] = $vname;
-                            }
-                        }
-                    }
-                }
-            }
 
-            $v_added_str = "";
-            $v_resolved_str = "";
-            foreach ($v_added as $vkey => $vname) {
-                $v_added_str .= "<div>" . $vkey . "---" . $vname . "</div>";
-            }
-            foreach ($v_resolved as $vkey => $vname) {
-                $v_resolved_str .= "<div>" . $vkey . "---" . $vname . "</div>";
+                $sqale_index_diff += $tdDiff->sqale_index_diff;
+
+                $violations = $tdDiff->violations;
+                if($violations->count()) {
+
+                    foreach ($violations as $violation) {
+
+                        if($violation->added_or_resolved == 'added') {
+                            /**
+                             * EDOOOOOO
+                             */
+                        } else {
+
+                        }
+
+                    }
+
+                }
+
             }
 
             echo "<td valign='top' style='width: 200px; height: 30px; border-bottom: 1px solid grey; padding: 5px;'>{$committer}</td>";

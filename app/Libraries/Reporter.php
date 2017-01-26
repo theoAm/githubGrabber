@@ -632,8 +632,30 @@ class Reporter implements Reporting {
                             ];
                         }
 
-                        $violations_added_str = '';
-                        $violations_resolved_str = '';
+                        $td_comparison = [
+                            "minor_violations_diff" => intval($metrics["minor_violations"]) - intval($previous_metrics["minor_violations"]),
+                            "info_violations_diff" => intval($metrics["info_violations"]) - intval($previous_metrics["info_violations"]),
+                            "major_violations_diff" => intval($metrics["major_violations"]) - intval($previous_metrics["major_violations"]),
+                            "sqale_debt_ratio_diff" => floatval($metrics["sqale_debt_ratio"]) - floatval($previous_metrics["sqale_debt_ratio"]),
+                            "blocker_violations_diff" => intval($metrics["blocker_violations"]) - intval($previous_metrics["blocker_violations"]),
+                            "critical_violations_diff" => intval($metrics["critical_violations"]) - intval($previous_metrics["critical_violations"]),
+                            "sqale_index_diff" => floatval($metrics["sqale_index"]) - floatval($previous_metrics["sqale_index"]),
+                        ];
+
+                        $tdDiff = new \App\TdDiff();
+                        $tdDiff->repo_id = $this->repo_id;
+                        $tdDiff->committer = $json->committer;
+                        $tdDiff->commit_sha = $commit->sha;
+                        $tdDiff->previous_commit_sha = $previous_commit->sha;
+                        $tdDiff->filename = $commit_file->filename;
+                        $tdDiff->sqale_index_diff = $td_comparison['sqale_index_diff'];
+                        $tdDiff->sqale_debt_ratio_diff = $td_comparison['sqale_debt_ratio_diff'];
+                        $tdDiff->blocker_violations_diff = $td_comparison['blocker_violations_diff'];
+                        $tdDiff->critical_violations_diff = $td_comparison['critical_violations_diff'];
+                        $tdDiff->major_violations_diff = $td_comparison['major_violations_diff'];
+                        $tdDiff->minor_violations_diff = $td_comparison['minor_violations_diff'];
+                        $tdDiff->info_violations_diff = $td_comparison['info_violations_diff'];
+                        $tdDiff->save();
 
                         if(
                             $metrics['info_violations'] ||
@@ -652,66 +674,50 @@ class Reporter implements Reporting {
                             /**
                              * SEARCH FOR VIOLATIONS ADDED
                              */
-                            foreach ($violations as $nvkey => $nvvalue) {
+                            foreach ($violations as $nvkey => $nvarray) {
                                 if(!array_key_exists($nvkey, $previous_violations)) {
-                                    $violations_added[$nvkey] = $nvvalue;
+                                    $violations_added[$nvkey] = $nvarray;
                                 }
-                            }
-                            $tmp = [];
-                            if($violations_added) {
-                                foreach ($violations_added as $vakey => $vavalue) {
-                                    $tmp[] = $vakey . '---' . $vavalue;
-                                }
-                                $violations_added_str = implode('|||', $tmp);
                             }
 
                             /**
                              * SEARCH FOR VIOLATIONS RESOLVED
                              */
-                            foreach ($previous_violations as $pvkey => $pvvalue) {
+                            foreach ($previous_violations as $pvkey => $pvarray) {
                                 if(!array_key_exists($pvkey, $violations)) {
-                                    $violations_resolved[$pvkey] = $pvvalue;
+                                    $violations_resolved[$pvkey] = $pvarray;
                                 }
                             }
-                            $tmp = [];
-                            if($violations_resolved) {
-                                foreach ($violations_resolved as $vrkey => $vrvalue) {
-                                    $tmp[] = $vrkey . '---' . $vrvalue;
-                                }
-                                $violations_resolved_str = implode('|||', $tmp);
+
+                            foreach ($violations_added as $vakey => $vaarray) {
+
+                                $td_violation = new \App\TdViolation();
+                                $td_violation->td_diff_id = $tdDiff->id;
+                                $td_violation->key = $vakey;
+                                $td_violation->name = $vaarray['name'];
+                                $td_violation->description = $vaarray['htmlDesc'];
+                                $td_violation->severity = $vaarray['severity'];
+                                $td_violation->defaultDebtChar = $vaarray['defaultDebtChar'];
+                                $td_violation->added_or_resolved = 'added';
+                                $td_violation->save();
+
+                            }
+
+                            foreach ($violations_resolved as $vrkey => $vrarray) {
+
+                                $td_violation = new \App\TdViolation();
+                                $td_violation->td_diff_id = $tdDiff->id;
+                                $td_violation->key = $vrkey;
+                                $td_violation->name = $vrarray['name'];
+                                $td_violation->description = $vrarray['htmlDesc'];
+                                $td_violation->severity = $vrarray['severity'];
+                                $td_violation->defaultDebtChar = $vrarray['defaultDebtChar'];
+                                $td_violation->added_or_resolved = 'resolved';
+                                $td_violation->save();
+
                             }
 
                         }
-
-                        $comparison = [
-                            "minor_violations_diff" => intval($metrics["minor_violations"]) - intval($previous_metrics["minor_violations"]),
-                            "info_violations_diff" => intval($metrics["info_violations"]) - intval($previous_metrics["info_violations"]),
-                            "major_violations_diff" => intval($metrics["major_violations"]) - intval($previous_metrics["major_violations"]),
-                            "sqale_debt_ratio_diff" => floatval($metrics["sqale_debt_ratio"]) - floatval($previous_metrics["sqale_debt_ratio"]),
-                            "blocker_violations_diff" => intval($metrics["blocker_violations"]) - intval($previous_metrics["blocker_violations"]),
-                            "critical_violations_diff" => intval($metrics["critical_violations"]) - intval($previous_metrics["critical_violations"]),
-                            "sqale_index_diff" => floatval($metrics["sqale_index"]) - floatval($previous_metrics["sqale_index"]),
-                            "violations_added" => $violations_added_str,
-                            "violations_resolved" => $violations_resolved_str,
-                        ];
-
-
-                        $tdDiff = new \App\TdDiff();
-                        $tdDiff->repo_id = $this->repo_id;
-                        $tdDiff->committer = $json->committer;
-                        $tdDiff->commit_sha = $commit->sha;
-                        $tdDiff->previous_commit_sha = $previous_commit->sha;
-                        $tdDiff->filename = $commit_file->filename;
-                        $tdDiff->sqale_index_diff = $comparison['sqale_index_diff'];
-                        $tdDiff->sqale_debt_ratio_diff = $comparison['sqale_debt_ratio_diff'];
-                        $tdDiff->blocker_violations_diff = $comparison['blocker_violations_diff'];
-                        $tdDiff->critical_violations_diff = $comparison['critical_violations_diff'];
-                        $tdDiff->major_violations_diff = $comparison['major_violations_diff'];
-                        $tdDiff->minor_violations_diff = $comparison['minor_violations_diff'];
-                        $tdDiff->info_violations_diff = $comparison['info_violations_diff'];
-                        $tdDiff->violations_added = $comparison['violations_added'];
-                        $tdDiff->violations_resolved = $comparison['violations_resolved'];
-                        $tdDiff->save();
 
                     }
 
@@ -790,7 +796,7 @@ class Reporter implements Reporting {
                 if(!$rule_info) {
                     continue;
                 }
-                $rules_broken[$rkey] = $rule_info['name'];
+                $rules_broken[$rkey] = $rule_info;
             }
 
             return $rules_broken;
@@ -812,10 +818,12 @@ class Reporter implements Reporting {
             return false;
         }
         $rule = $json->rules[0];
+
         return [
             'name' => $rule->name,
             'severity' => $rule->severity,
-            'defaultDebtChar' => $rule->defaultDebtChar
+            'defaultDebtChar' => $rule->defaultDebtChar,
+            'htmlDesc' => $rule->htmlDesc
         ];
     }
 

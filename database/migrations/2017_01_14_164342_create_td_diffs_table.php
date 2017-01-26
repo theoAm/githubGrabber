@@ -27,10 +27,9 @@ class CreateTdDiffsTable extends Migration
             $table->integer('major_violations_diff');
             $table->integer('minor_violations_diff');
             $table->integer('info_violations_diff');
-            $table->string('violations_added');
-            $table->string('violations_resolved');
 
             $table->unique(['repo_id', 'commit_sha', 'filename']);
+            $table->foreign('repo_id')->references('id')->on('repos')->onDelete('cascade');
 
             $table->timestamps();
         });
