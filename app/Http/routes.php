@@ -15,6 +15,7 @@ Route::get('/home', 'HomeController@home');
 
 Route::get('/', 'ResultsController@index');
 Route::get('/results/td/{repo}', 'ResultsController@td');
+Route::get('/results/rq1/{repo}', 'ResultsController@rq1');
 
 /*
 |--------------------------------------------------------------------------

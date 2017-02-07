@@ -29,100 +29,97 @@ class ResultsController extends Controller
 
     function td(Repo $repo)
     {
-        $items = TdDiff::select('committer', DB::raw('COUNT(*) as count'))
-            ->where('repo_id', $repo->id)
-            ->groupBy('committer')
-            ->orderBy('count', 'DESC')
-            ->get();
-        if(!$items->count()) {
-            echo 'No committers found!';
-            exit;
-        }
+        $data = [
+            'repo' => $repo,
+        ];
+        return view('results.td', $data);
 
-        echo "<p><a href='/'>back</a></p>";
+    }
 
-        echo "<h1>{$repo->owner}/{$repo->name}</h1>";
+    function rq1(Repo $repo)
+    {
+        try {
 
-        echo "<table cellpadding='5'>
-        <thead>
-        <tr>
-            <th style='border-bottom: 1px solid black;'>Committer</th>        
-            <th style='border-bottom: 1px solid black;'>#commits</th>        
-            <th style='border-bottom: 1px solid black;'>Sqale_Index_Added</th>        
-            <th style='border-bottom: 1px solid black;'>Violations_Added</th>
-            <th style='border-bottom: 1px solid black;'>Violations_Resolved</th>
-        </tr>
-        </thead>
-        <tbody>";
+            $resp = [];
+            $resp['rq'] = 'RQ1: Do developers equally contribute to the accumulation of TD?';
+            $resp['labels'] = [];
+            $resp['datasets'] = [];
 
-        foreach ($items as $item) {
-
-            echo "<tr>";
-
-            $committer = $item->committer;
-            $tdDiffs = TdDiff::where('repo_id', $repo->id)
-                ->where('committer', $committer)
+            $items = TdDiff::select('committer', DB::raw('COUNT(*) as count'))
+                ->where('repo_id', $repo->id)
+                ->groupBy('committer')
+                ->orderBy('count', 'DESC')
                 ->get();
-            if(!$tdDiffs->count()) {
-                continue;
+
+            if(!$items->count()) {
+                throw new \Exception();
             }
 
-            $commits = Commit::where('repo_id', $repo->id)
-                ->where('committer', $committer)
-                ->count();
+            $datapoints = [];
 
-            $sqale_index_diff = 0;
-            $v_added_str = '<table><tr><th>Key</th><th>Severity</th><th>Name & Description</th><th>File</th></tr>';
-            $v_resolved_str = '<table><tr><th>Key</th><th>Severity</th><th>Name & Description</th><th>File</th></tr>';
-            foreach ($tdDiffs as $tdDiff) {
+            foreach ($items as $item) {
 
-                $sqale_index_diff += $tdDiff->sqale_index_diff;
+                $commits_count = Commit::where('repo_id', $repo->id)
+                    ->where('author', $item->committer)
+                    ->count();
 
-                $violations = $tdDiff->violations;
-                if($violations->count()) {
+                $tdDiffs = TdDiff::where('repo_id', $repo->id)
+                    ->where('committer', $item->committer)
+                    ->get();
+                if(!$tdDiffs->count()) {
+                    continue;
+                }
 
-                    foreach ($violations as $violation) {
+                $sqale_index_diff = 0;
+                foreach ($tdDiffs as $tdDiff) {
 
-                        if($violation->added_or_resolved == 'added') {
+                    $sqale_index_diff += $tdDiff->sqale_index_diff;
 
-                            $v_added_str .= '<tr>' .
-                                '<td valign="top">' . $violation->key . '</td>' .
-                                '<td valign="top">' . $violation->severity . '</td>' .
-                                '<td valign="top"><div><h2><u>' . $violation->name . '</u></h2></div><div>' . $violation->description . '</div></td>' .
-                                '<td valign="top">' . $tdDiff->filename . '</td>' .
-                                '</tr>';
+                    /*$violations = $tdDiff->violations;
+                    if($violations->count()) {
 
-                        } else {
+                        foreach ($violations as $violation) {
 
-                            $v_resolved_str .= '<tr>' .
-                                '<td valign="top">' . $violation->key . '</td>' .
-                                '<td valign="top">' . $violation->severity . '</td>' .
-                                '<td valign="top"><div><h2><u>' . $violation->name . '</u></h2></div><div>' . $violation->description . '</div></td>' .
-                                '<td valign="top">' . $tdDiff->filename . '</td>' .
-                                '</tr>';
+                            if($violation->added_or_resolved == 'added') {
+
+                                $v_added_str .= '<tr>' .
+                                    '<td valign="top">' . $violation->key . '</td>' .
+                                    '<td valign="top">' . $violation->severity . '</td>' .
+                                    '<td valign="top"><div><h2><u>' . $violation->name . '</u></h2></div><div>' . $violation->description . '</div></td>' .
+                                    '<td valign="top">' . $tdDiff->filename . '</td>' .
+                                    '</tr>';
+
+                            } else {
+
+                                $v_resolved_str .= '<tr>' .
+                                    '<td valign="top">' . $violation->key . '</td>' .
+                                    '<td valign="top">' . $violation->severity . '</td>' .
+                                    '<td valign="top"><div><h2><u>' . $violation->name . '</u></h2></div><div>' . $violation->description . '</div></td>' .
+                                    '<td valign="top">' . $tdDiff->filename . '</td>' .
+                                    '</tr>';
+
+                            }
 
                         }
 
-                    }
+                    }*/
 
                 }
 
+                $resp['labels'][] = $item->committer;
+                $datapoints[] = $sqale_index_diff / $commits_count;
+
             }
-            $v_added_str .= '</table>';
-            $v_resolved_str .= '</table>';
 
-            echo "<td valign='top' style='width: 200px; height: 30px; border-bottom: 1px solid grey;'>{$committer}</td>";
-            echo "<td valign='top' style='width: 100px; height: 30px; border-bottom: 1px solid grey;'>{$commits}</td>";
-            echo "<td valign='top' style='width: 100px; height: 30px; border-bottom: 1px solid grey;'>{$sqale_index_diff} min</td>";
-            echo "<td valign='top' style='width:500px; border-bottom: 1px solid grey;'>{$v_added_str}</td>";
-            echo "<td valign='top' style='width:500px; border-bottom: 1px solid grey;'>{$v_resolved_str}</td>";
+            $resp['datasets'][] = [
+                'label' => "TD added per commit (in minutes)",
+                'data' => $datapoints
+            ];
 
-            echo "</tr>";
+            return $resp;
 
+        } catch (\Exception $ex) {
+            exit;
         }
-
-        echo "</tbody>";
-        echo "</table>";
-
     }
 }
