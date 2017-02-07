@@ -72,7 +72,7 @@ class Github {
 
     }
 
-    public function getCommits() {
+    public function getCommits($branch = null, $since = null) {
 
         try {
 
@@ -85,6 +85,12 @@ class Github {
                 $params_url = "?access_token={$this->access_token}"
                     . "&per_page={$this->per_page}"
                     . "&page={$page}";
+                if($branch) {
+                    $params_url .= "&sha={$branch}";
+                }
+                if($since) {
+                    $params_url .= "&since={$since}";
+                }
 
                 $url = $this->api_url . $action_url . $params_url;
 

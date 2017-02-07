@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Commit;
 use App\Libraries\FileLogger;
 use App\Libraries\Github;
 use App\Libraries\Reporter;
@@ -18,14 +19,18 @@ class HomeController extends Controller
 
     protected $repo_owner;
     protected $repo_name;
+    protected $repo_branch;
+    protected $since;
     protected $slow_process;
     protected $github;
     protected $reporter;
 
     function __construct()
     {
-        $this->repo_owner = "illuminate";
-        $this->repo_name = "queue";
+        $this->repo_owner = "laravel";
+        $this->repo_name = "framework";
+        $this->repo_branch = "5.3";
+        $this->since = "2016-08-23T13:04:04Z";
         $this->slow_process = true;
         $this->github = new Github($this->repo_owner, $this->repo_name, $this->slow_process);
         $this->reporter = new Reporter($this->repo_owner, $this->repo_name, $this->slow_process);
@@ -33,21 +38,22 @@ class HomeController extends Controller
 
     function home()
     {
-        echo 'exiting...';exit;
-        $issue = \App\Issue::find(51645);
-        $repo_owner = $this->repo_owner;
-        $repo_name = $this->repo_name;
-        $slow_process = true;
-        $reporter = new \App\Libraries\Reporter($repo_owner, $repo_name, $slow_process);
-        $reporter->processIssue($issue);
+
+        $commit = Commit::find(80);
+        $previous_commit = Commit::where('committed_at', '<', $commit->committed_at)
+            ->where('repo_id', $commit->repo_id)
+            ->latest('committed_at')
+            ->first();
+
+        dd($previous_commit);
 
     }
 
     function fetchGithubData()
     {
-        echo 'exiting...';exit;
-        $this->github->getIssuesAndPulls();
-        $this->github->getCommits();
+        //echo 'exiting...';exit;
+        //$this->github->getIssuesAndPulls();
+        $this->github->getCommits($this->repo_branch, $this->since);
     }
 
     function analyzeGithubData()

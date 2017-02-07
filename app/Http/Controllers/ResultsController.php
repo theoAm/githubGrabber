@@ -43,14 +43,14 @@ class ResultsController extends Controller
 
         echo "<h1>{$repo->owner}/{$repo->name}</h1>";
 
-        echo "<table>
+        echo "<table cellpadding='5'>
         <thead>
         <tr>
             <th style='border-bottom: 1px solid black;'>Committer</th>        
             <th style='border-bottom: 1px solid black;'>#commits</th>        
             <th style='border-bottom: 1px solid black;'>Sqale_Index_Added</th>        
-            <th style='border-bottom: 1px solid black;'>Violations_Added (distinct)</th>        
-            <th style='border-bottom: 1px solid black;'>Violations_Resolved (distinct)</th>        
+            <th style='border-bottom: 1px solid black;'>Violations_Added</th>
+            <th style='border-bottom: 1px solid black;'>Violations_Resolved</th>
         </tr>
         </thead>
         <tbody>";
@@ -72,8 +72,8 @@ class ResultsController extends Controller
                 ->count();
 
             $sqale_index_diff = 0;
-            $v_added_str = '';
-            $v_resolved_str = '';
+            $v_added_str = '<table><tr><th>Key</th><th>Severity</th><th>Name & Description</th><th>File</th></tr>';
+            $v_resolved_str = '<table><tr><th>Key</th><th>Severity</th><th>Name & Description</th><th>File</th></tr>';
             foreach ($tdDiffs as $tdDiff) {
 
                 $sqale_index_diff += $tdDiff->sqale_index_diff;
@@ -84,10 +84,22 @@ class ResultsController extends Controller
                     foreach ($violations as $violation) {
 
                         if($violation->added_or_resolved == 'added') {
-                            /**
-                             * EDOOOOOO
-                             */
+
+                            $v_added_str .= '<tr>' .
+                                '<td valign="top">' . $violation->key . '</td>' .
+                                '<td valign="top">' . $violation->severity . '</td>' .
+                                '<td valign="top"><div><h2><u>' . $violation->name . '</u></h2></div><div>' . $violation->description . '</div></td>' .
+                                '<td valign="top">' . $tdDiff->filename . '</td>' .
+                                '</tr>';
+
                         } else {
+
+                            $v_resolved_str .= '<tr>' .
+                                '<td valign="top">' . $violation->key . '</td>' .
+                                '<td valign="top">' . $violation->severity . '</td>' .
+                                '<td valign="top"><div><h2><u>' . $violation->name . '</u></h2></div><div>' . $violation->description . '</div></td>' .
+                                '<td valign="top">' . $tdDiff->filename . '</td>' .
+                                '</tr>';
 
                         }
 
@@ -96,12 +108,14 @@ class ResultsController extends Controller
                 }
 
             }
+            $v_added_str .= '</table>';
+            $v_resolved_str .= '</table>';
 
-            echo "<td valign='top' style='width: 200px; height: 30px; border-bottom: 1px solid grey; padding: 5px;'>{$committer}</td>";
-            echo "<td valign='top' style='width: 100px; height: 30px; border-bottom: 1px solid grey; padding: 5px;'>{$commits}</td>";
-            echo "<td valign='top' style='width: 100px; height: 30px; border-bottom: 1px solid grey; padding: 5px;'>{$sqale_index_diff} min</td>";
-            echo "<td valign='top' style='width: 500px; height: 30px; border-bottom: 1px solid grey; padding: 5px;'>{$v_added_str}</td>";
-            echo "<td valign='top' style='width: 500px; height: 30px; border-bottom: 1px solid grey; padding: 5px;'>{$v_resolved_str}</td>";
+            echo "<td valign='top' style='width: 200px; height: 30px; border-bottom: 1px solid grey;'>{$committer}</td>";
+            echo "<td valign='top' style='width: 100px; height: 30px; border-bottom: 1px solid grey;'>{$commits}</td>";
+            echo "<td valign='top' style='width: 100px; height: 30px; border-bottom: 1px solid grey;'>{$sqale_index_diff} min</td>";
+            echo "<td valign='top' style='width:500px; border-bottom: 1px solid grey;'>{$v_added_str}</td>";
+            echo "<td valign='top' style='width:500px; border-bottom: 1px solid grey;'>{$v_resolved_str}</td>";
 
             echo "</tr>";
 

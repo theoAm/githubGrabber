@@ -589,6 +589,7 @@ class Reporter implements Reporting {
                     ->where('repo_id', $repo->id)
                     ->orderBy('committed_at', 'ASC')
                     ->get();
+
                 if(!$commits->count()) {
                     continue;
                 }
@@ -662,11 +663,16 @@ class Reporter implements Reporting {
                             $metrics['minor_violations'] ||
                             $metrics['major_violations'] ||
                             $metrics['critical_violations'] ||
-                            $metrics['blocker_violations']
+                            $metrics['blocker_violations'] ||
+                            $previous_metrics['info_violations'] ||
+                            $previous_metrics['minor_violations'] ||
+                            $previous_metrics['major_violations'] ||
+                            $previous_metrics['critical_violations'] ||
+                            $previous_metrics['blocker_violations']
                         ) {
 
-                            $violations = $this->getFileBrokenRulesFromSonarQube($commit_file, $commit->sha);
-                            $previous_violations = $this->getFileBrokenRulesFromSonarQube($commit_file, $previous_commit->sha);
+                            $violations = $this->getFileViolationsFromSonarQube($commit_file, $commit->sha);
+                            $previous_violations = $this->getFileViolationsFromSonarQube($commit_file, $previous_commit->sha);
 
                             $violations_added = [];
                             $violations_resolved = [];
@@ -772,7 +778,7 @@ class Reporter implements Reporting {
 
     }
 
-    private function getFileBrokenRulesFromSonarQube(\App\CommitFile $file, $sha) {
+    private function getFileViolationsFromSonarQube(\App\CommitFile $file, $sha) {
 
         $componentKey = $this->repo_name . ':' . $sha . ':' . $file->filename;
         $url = 'http://' . $_ENV['SONARQUBE_HOST'] . '/api/issues/search?componentKeys=' . $componentKey;
