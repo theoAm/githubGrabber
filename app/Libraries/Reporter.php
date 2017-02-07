@@ -572,9 +572,9 @@ class Reporter implements Reporting {
             ->first();
 
         $committers = DB::table('commits')
-            ->select('committer', DB::raw('COUNT(*) as count'))
+            ->select('author', DB::raw('COUNT(*) as count'))
             ->where('repo_id', $repo->id)
-            ->groupBy('committer')
+            ->groupBy('author')
             ->havingRaw('COUNT(*) >= 10')
             ->orderBy('count', 'DESC')
             ->get();
@@ -585,7 +585,7 @@ class Reporter implements Reporting {
 
             foreach ($committers as $json) {
 
-                $commits = Commit::where('committer', $json->committer)
+                $commits = Commit::where('author', $json->author)
                     ->where('repo_id', $repo->id)
                     ->orderBy('committed_at', 'ASC')
                     ->get();
@@ -645,7 +645,7 @@ class Reporter implements Reporting {
 
                         $tdDiff = new \App\TdDiff();
                         $tdDiff->repo_id = $this->repo_id;
-                        $tdDiff->committer = $json->committer;
+                        $tdDiff->committer = $json->author;
                         $tdDiff->commit_sha = $commit->sha;
                         $tdDiff->previous_commit_sha = $previous_commit->sha;
                         $tdDiff->filename = $commit_file->filename;
