@@ -601,6 +601,7 @@ class Reporter implements Reporting {
                         ->where('repo_id', $repo->id)
                         ->latest('committed_at')
                         ->first();
+
                     if(!$previous_commit) {
                         continue;
                     }
@@ -609,6 +610,7 @@ class Reporter implements Reporting {
                         ->where('repo_id', $repo->id)
                         ->where('filename', 'like', '%.php')
                         ->get();
+
                     if(!$commit_files) {
                         continue;
                     }
@@ -785,27 +787,27 @@ class Reporter implements Reporting {
 
         try {
 
-            $rules_broken = [];
+            $violations = [];
 
             $json = json_decode(file_get_contents($url));
 
             if(!$json->total) {
-                return $rules_broken;
+                return $violations;
             }
 
             foreach ($json->issues as $i) {
-                $rules_broken[$i->rule] = '';
+                $violations[$i->rule] = '';
             }
 
-            foreach ($rules_broken as $rkey => $rvalue) {
+            foreach ($violations as $rkey => $rvalue) {
                 $rule_info = $this->getRuleInfoFromSonarQube($rkey);
                 if(!$rule_info) {
                     continue;
                 }
-                $rules_broken[$rkey] = $rule_info;
+                $violations[$rkey] = $rule_info;
             }
 
-            return $rules_broken;
+            return $violations;
 
         } catch (\Exception $ex) {
 

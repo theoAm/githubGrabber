@@ -4,7 +4,16 @@
 
     <h1>{{ $repo->owner }}/{{ $repo->name }}</h1>
 
-    <div id="rq1">
+    <div id="rq1" style="margin-bottom: 50px;">
+        <div class="title"></div>
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <canvas width="400" height="250"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div id="rq3">
         <div class="title"></div>
         <div class="row">
             <div class="col-xs-12 col-md-6">
@@ -38,6 +47,26 @@
                 var options = {};
                 var ctx = $('#rq1 canvas');
                 $('#rq1 .title').html(data.rq);
+                var myBarChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: data,
+                    options: options
+                });
+            }
+        });
+
+        //RQ3
+        $.ajax({
+            url: 'http://githubgrabber.dev/results/rq3/{{ $repo->id }}',
+            dataType: 'json',
+            type: 'GET',
+            error: function() {
+                console.error('error!');
+            },
+            success: function(data) {
+                var options = {};
+                var ctx = $('#rq3 canvas');
+                $('#rq3 .title').html(data.rq);
                 var myBarChart = new Chart(ctx, {
                     type: 'bar',
                     data: data,
