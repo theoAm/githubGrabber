@@ -41,7 +41,7 @@ class ResultsController extends Controller
         try {
 
             $resp = [];
-            $resp['rq'] = 'RQ1: Developers equally harm TD?';
+            $resp['rq'] = 'RQ1: Do developers cause equal harm to TD?';
             $resp['labels'] = [];
             $resp['datasets'] = [];
 
@@ -85,7 +85,124 @@ class ResultsController extends Controller
 
             $resp['datasets'][] = [
                 'label' => "TD added per commit (in minutes)",
-                'data' => $datapoints
+                'data' => $datapoints,
+                'backgroundColor' => '#e5690b',
+            ];
+
+            return $resp;
+
+        } catch (\Exception $ex) {
+            exit;
+        }
+    }
+
+    function rq2(Repo $repo)
+    {
+        try {
+
+            $resp = [];
+            $resp['rq'] = 'RQ2: What kind of violations do developers add?';
+            $resp['heatMap'] = [];
+
+            $items = TdDiff::select('committer', DB::raw('SUM(sqale_index_diff) as sum'))
+                ->where('repo_id', $repo->id)
+                ->groupBy('committer')
+                ->orderBy('sum', 'DESC')
+                ->get();
+
+            if(!$items->count()) {
+                throw new \Exception();
+            }
+
+            $w = [];
+            $x = [];
+            $y = [];
+            $z = [];
+
+            foreach ($items as $item) {
+
+                $tdDiffs = TdDiff::where('repo_id', $repo->id)
+                    ->where('committer', $item->committer)
+                    ->get();
+
+                if(!$tdDiffs->count()) {
+                    continue;
+                }
+
+                $x[$item->committer] = $item->committer;
+
+                foreach ($tdDiffs as $tdDiff) {
+
+                    $violations = $tdDiff->violations;
+                    if($violations->count()) {
+
+                        foreach ($violations as $violation) {
+
+                            if($violation->added_or_resolved == 'added') {
+
+                                $y[$violation->key] = $violation->key;
+                                $w[$violation->key] = $violation->name;
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+            foreach ($y as $key => $tmp) {
+                foreach ($x as $j => $com) {
+                    $z[$key][$com] = 0;
+                }
+            }
+
+            foreach ($items as $item) {
+
+                $tdDiffs = TdDiff::where('repo_id', $repo->id)
+                    ->where('committer', $item->committer)
+                    ->get();
+
+                if(!$tdDiffs->count()) {
+                    continue;
+                }
+
+                foreach ($tdDiffs as $tdDiff) {
+
+                    $violations = $tdDiff->violations;
+                    if($violations->count()) {
+
+                        foreach ($violations as $violation) {
+
+                            if($violation->added_or_resolved == 'added') {
+
+                                $z[$violation->key][$item->committer]++;
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+            $z = array_values($z);
+
+            foreach ($z as $j => $array) {
+                $z[$j] = array_values($array);
+            }
+
+
+            $resp['w'] = $w;
+            $resp['heatMap'][] = [
+                'x' => array_values($x),
+                'y' => array_values($y),
+                'z' => array_values($z),
+                'type' => 'heatmap'
             ];
 
             return $resp;
@@ -100,7 +217,7 @@ class ResultsController extends Controller
         try {
 
             $resp = [];
-            $resp['rq'] = 'RQ3: Developers add or resolve code violations more often?';
+            $resp['rq'] = 'RQ3: Do developers add or resolve code violations more often?';
             $resp['labels'] = [];
             $resp['datasets'] = [];
 
@@ -164,11 +281,137 @@ class ResultsController extends Controller
 
             $resp['datasets'][] = [
                 'label' => "Violations Added per commit",
-                'data' => $datapoints_va_count
+                'data' => $datapoints_va_count,
+                'backgroundColor' => '#d10e0e',
             ];
             $resp['datasets'][] = [
                 'label' => "Violations Resolved per commit",
-                'data' => $datapoints_vr_count
+                'data' => $datapoints_vr_count,
+                'backgroundColor' => '#17b529',
+            ];
+
+            return $resp;
+
+        } catch (\Exception $ex) {
+            exit;
+        }
+    }
+
+    function rq4(Repo $repo)
+    {
+        try {
+
+            $resp = [];
+            $resp['rq'] = 'RQ4: What is the severity of the violations that developers add?';
+            $resp['labels'] = [];
+            $resp['datasets'] = [];
+
+            $items = TdDiff::select('committer', DB::raw('SUM(sqale_index_diff) as sum'))
+                ->where('repo_id', $repo->id)
+                ->groupBy('committer')
+                ->orderBy('sum', 'DESC')
+                ->get();
+
+            if(!$items->count()) {
+                throw new \Exception();
+            }
+
+            $datapoints_iv = [];
+            $datapoints_miv = [];
+            $datapoints_mav = [];
+            $datapoints_cv = [];
+            $datapoints_bv = [];
+
+            foreach ($items as $item) {
+
+                $commits_count = Commit::where('repo_id', $repo->id)
+                    ->where('author', $item->committer)
+                    ->count();
+
+                $tdDiffs = TdDiff::where('repo_id', $repo->id)
+                    ->where('committer', $item->committer)
+                    ->get();
+
+                if(!$tdDiffs->count()) {
+                    continue;
+                }
+
+                $datapoints_iv_count = 0;
+                $datapoints_miv_count = 0;
+                $datapoints_mav_count = 0;
+                $datapoints_cv_count = 0;
+                $datapoints_bv_count = 0;
+
+                foreach ($tdDiffs as $tdDiff) {
+
+                    $violations = $tdDiff->violations;
+                    if($violations->count()) {
+
+                        foreach ($violations as $violation) {
+
+                            if($violation->added_or_resolved == 'added') {
+
+                                switch ($violation->severity) {
+
+                                    case 'INFO':
+                                        $datapoints_iv_count ++;
+                                        break;
+                                    case 'MINOR':
+                                        $datapoints_miv_count ++;
+                                        break;
+                                    case 'MAJOR':
+                                        $datapoints_mav_count ++;
+                                        break;
+                                    case 'CRITICAL':
+                                        $datapoints_cv_count ++;
+                                        break;
+                                    case 'BLOCKER':
+                                        $datapoints_bv_count ++;
+                                        break;
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                $resp['labels'][] = $item->committer;
+                $datapoints_iv[] = $datapoints_iv_count;
+                $datapoints_miv[] = $datapoints_miv_count;
+                $datapoints_mav[] = $datapoints_mav_count;
+                $datapoints_cv[] = $datapoints_cv_count;
+                $datapoints_bv[] = $datapoints_bv_count;
+
+            }
+
+            $resp['datasets'][] = [
+                'label' => "Info violations",
+                'data' => $datapoints_iv,
+                'backgroundColor' => '#18b716',
+            ];
+            $resp['datasets'][] = [
+                'label' => "Minor violations",
+                'data' => $datapoints_miv,
+                'backgroundColor' => '#16b79c',
+            ];
+            $resp['datasets'][] = [
+                'label' => "Major violations",
+                'data' => $datapoints_mav,
+                'backgroundColor' => '#1646b7',
+            ];
+            $resp['datasets'][] = [
+                'label' => "Critical violations",
+                'data' => $datapoints_cv,
+                'backgroundColor' => '#b76e16',
+            ];
+            $resp['datasets'][] = [
+                'label' => "Blocker violations",
+                'data' => $datapoints_bv,
+                'backgroundColor' => '#b71e16',
             ];
 
             return $resp;
