@@ -59,7 +59,7 @@
 
         //RQ1
         $.ajax({
-            url: 'http://githubgrabber.dev/results/rq1/{{ $repo->id }}',
+            url: '/results/rq1/{{ $repo->id }}',
             dataType: 'json',
             type: 'GET',
             error: function() {
@@ -79,7 +79,7 @@
 
         //RQ2
         $.ajax({
-            url: 'http://githubgrabber.dev/results/rq2/{{ $repo->id }}',
+            url: '/results/rq2/{{ $repo->id }}',
             dataType: 'json',
             type: 'GET',
             error: function() {
@@ -103,7 +103,7 @@
 
         //RQ3
         $.ajax({
-            url: 'http://githubgrabber.dev/results/rq3/{{ $repo->id }}',
+            url: '/results/rq3/{{ $repo->id }}',
             dataType: 'json',
             type: 'GET',
             error: function() {
@@ -123,7 +123,7 @@
 
         //RQ4
         $.ajax({
-            url: 'http://githubgrabber.dev/results/rq4/{{ $repo->id }}',
+            url: '/results/rq4/{{ $repo->id }}',
             dataType: 'json',
             type: 'GET',
             error: function() {
