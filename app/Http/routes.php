@@ -19,6 +19,7 @@ Route::get('/results/rq1/{repo}', 'ResultsController@rq1');
 Route::get('/results/rq2/{repo}', 'ResultsController@rq2');
 Route::get('/results/rq3/{repo}', 'ResultsController@rq3');
 Route::get('/results/rq4/{repo}', 'ResultsController@rq4');
+Route::get('/results/rq5/{repo}', 'ResultsController@rq5');
 
 /*
 |--------------------------------------------------------------------------

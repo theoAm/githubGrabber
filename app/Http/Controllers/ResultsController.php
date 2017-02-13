@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Commit;
 use App\Repo;
 use App\TdDiff;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use Illuminate\Support\Facades\App;
@@ -413,6 +414,65 @@ class ResultsController extends Controller
                 'data' => $datapoints_bv,
                 'backgroundColor' => '#b71e16',
             ];
+
+            return $resp;
+
+        } catch (\Exception $ex) {
+            exit;
+        }
+    }
+
+    function rq5(Repo $repo)
+    {
+        try {
+
+            $resp = [];
+            $resp['rq'] = 'RQ5: Do developers with more experience on project (older) add less TD?';
+            $resp['datasets'][] = [
+                'label' => 'Experience vs Added TD',
+            ];
+
+            $items = TdDiff::select('committer', DB::raw('SUM(sqale_index_diff) as sum'))
+                ->where('repo_id', $repo->id)
+                ->groupBy('committer')
+                ->orderBy('sum', 'DESC')
+                ->get();
+
+            if(!$items->count()) {
+                throw new \Exception();
+            }
+
+            $last_commit = Commit::where('repo_id', $repo->id)
+                ->latest('committed_at')->first();
+
+            foreach ($items as $item) {
+
+                $tdDiffs = TdDiff::where('repo_id', $repo->id)
+                    ->where('committer', $item->committer)
+                    ->get();
+
+                if(!$tdDiffs->count()) {
+                    continue;
+                }
+
+                $committer_first_commit = Commit::where('repo_id', $repo->id)
+                    ->where('author', $item->committer)
+                    ->orderBy('committed_at', 'asc')->first();
+
+                $commits_count = Commit::where('repo_id', $repo->id)
+                    ->where('author', $item->committer)
+                    ->count();
+
+                $age_days = $last_commit->committed_at->diffInDays($committer_first_commit->committed_at);
+
+                $td_added = TdDiff::select(DB::raw('SUM(sqale_index_diff) as sum'))
+                    ->where('repo_id', $repo->id)
+                    ->where('committer', $item->committer)
+                    ->first()->sum;
+
+                $resp['datasets'][0]['data'][] = ['x' => $td_added/$commits_count, 'y' => $age_days, 'r' => 10];
+                $resp['datasets'][0]['backgroundColor'] = '#e5690b';
+            }
 
             return $resp;
 

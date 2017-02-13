@@ -43,6 +43,15 @@
         </div>
     </div>
 
+    <div id="rq5">
+        <div class="title"></div>
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <canvas width="400" height="250"></canvas>
+            </div>
+        </div>
+    </div>
+
 @endsection
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -66,7 +75,22 @@
                 console.error('error!');
             },
             success: function(data) {
-                var options = {};
+                var options = {
+                    scales: {
+                        yAxes: [{
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'TD added per commit (in minutes)'
+                            }
+                        }],
+                        xAxes: [{
+                            scaleLabel: {
+                                display: false,
+                                labelString: 'Committers'
+                            }
+                        }]
+                    }
+                };
                 var ctx = $('#rq1 canvas');
                 $('#rq1 .title').html(data.rq);
                 var myBarChart = new Chart(ctx, {
@@ -110,7 +134,22 @@
                 console.error('error!');
             },
             success: function(data) {
-                var options = {};
+                var options = {
+                    scales: {
+                        yAxes: [{
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Violations added vs violations resolved'
+                            }
+                        }],
+                        xAxes: [{
+                            scaleLabel: {
+                                display: false,
+                                labelString: 'Committers'
+                            }
+                        }]
+                    }
+                };
                 var ctx = $('#rq3 canvas');
                 $('#rq3 .title').html(data.rq);
                 var myBarChart = new Chart(ctx, {
@@ -130,7 +169,22 @@
                 console.error('error!');
             },
             success: function(data) {
-                var options = {};
+                var options = {
+                    scales: {
+                        yAxes: [{
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Violations added per severity'
+                            }
+                        }],
+                        xAxes: [{
+                            scaleLabel: {
+                                display: false,
+                                labelString: 'Committers'
+                            }
+                        }]
+                    }
+                };
                 var ctx = $('#rq4 canvas');
                 $('#rq4 .title').html(data.rq);
                 var myPieChart = new Chart(ctx,{
@@ -140,6 +194,42 @@
                 });
             }
         });
+
+        //RQ5
+        $.ajax({
+            url: '/results/rq5/{{ $repo->id }}',
+            dataType: 'json',
+            type: 'GET',
+            error: function() {
+                console.error('error!');
+            },
+            success: function(data) {
+                var options = {
+                    scales: {
+                        yAxes: [{
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Committer experience on code (days)'
+                            }
+                        }],
+                        xAxes: [{
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'TD added per commit (in minutes)'
+                            }
+                        }]
+                    }
+                };
+                var ctx = $('#rq5 canvas');
+                $('#rq5 .title').html(data.rq);
+                var myScatterChart = new Chart(ctx,{
+                    type: 'bubble',
+                    data: data,
+                    options: options
+                });
+            }
+        });
+
     });
 
 </script>
