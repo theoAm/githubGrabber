@@ -16,7 +16,7 @@ class CreateTdDiffsTable extends Migration
             $table->increments('id')->unsigned();
 
             $table->integer('repo_id')->unsigned();
-            $table->string('committer');
+            $table->string('author');
             $table->string('commit_sha');
             $table->string('previous_commit_sha');
             $table->string('filename');

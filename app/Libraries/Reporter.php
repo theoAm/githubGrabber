@@ -647,7 +647,7 @@ class Reporter implements Reporting {
 
                         $tdDiff = new \App\TdDiff();
                         $tdDiff->repo_id = $this->repo_id;
-                        $tdDiff->committer = $json->author;
+                        $tdDiff->author = $json->author;
                         $tdDiff->commit_sha = $commit->sha;
                         $tdDiff->previous_commit_sha = $previous_commit->sha;
                         $tdDiff->filename = $commit_file->filename;

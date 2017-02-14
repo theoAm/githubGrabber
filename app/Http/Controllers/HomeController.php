@@ -21,6 +21,7 @@ class HomeController extends Controller
     protected $repo_name;
     protected $repo_branch;
     protected $since;
+    protected $until;
     protected $slow_process;
     protected $github;
     protected $reporter;
@@ -31,6 +32,7 @@ class HomeController extends Controller
         $this->repo_name = "framework";
         $this->repo_branch = "5.3";
         $this->since = "2016-08-23T13:04:04Z";
+        $this->until = "2017-01-26T17:15:48Z";
         $this->slow_process = true;
         $this->github = new Github($this->repo_owner, $this->repo_name, $this->slow_process);
         $this->reporter = new Reporter($this->repo_owner, $this->repo_name, $this->slow_process);
@@ -53,7 +55,7 @@ class HomeController extends Controller
     {
         //echo 'exiting...';exit;
         //$this->github->getIssuesAndPulls();
-        $this->github->getCommits($this->repo_branch, $this->since);
+        $this->github->getCommits($this->repo_branch, $this->since, $this->until);
     }
 
     function analyzeGithubData()

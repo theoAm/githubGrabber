@@ -72,7 +72,7 @@ class Github {
 
     }
 
-    public function getCommits($branch = null, $since = null) {
+    public function getCommits($branch = null, $since = null, $until = null) {
 
         try {
 
@@ -90,6 +90,9 @@ class Github {
                 }
                 if($since) {
                     $params_url .= "&since={$since}";
+                }
+                if($until) {
+                    $params_url .= "&until={$until}";
                 }
 
                 $url = $this->api_url . $action_url . $params_url;
