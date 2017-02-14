@@ -362,8 +362,8 @@ class Github {
         $commit->repo_id = $this->repo_id;
         $commit->pull_id = NULL;
         $commit->sha = $row->sha;
-        $commit->author = $row->author->login;
-        $commit->committer = $row->committer->login;
+        $commit->author = (isset($row->author)) ? $row->author->login : 'n/a';
+        $commit->committer = (isset($row->committer)) ? $row->committer->login : 'n/a';
         $commit->message = $row->commit->message;
         $commit->authored_at = \App\Libraries\DateHandler::iso8601ToUtc($row->commit->author->date);
         $commit->committed_at = \App\Libraries\DateHandler::iso8601ToUtc($row->commit->committer->date);

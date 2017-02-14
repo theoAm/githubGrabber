@@ -46,9 +46,10 @@ class ResultsController extends Controller
             $resp['labels'] = [];
             $resp['datasets'] = [];
 
-            $items = TdDiff::select('committer', DB::raw('SUM(sqale_index_diff) as sum'))
+            $items = TdDiff::select('author', DB::raw('SUM(sqale_index_diff) as sum'))
                 ->where('repo_id', $repo->id)
-                ->groupBy('committer')
+                ->where('author', '<>', 'n/a')
+                ->groupBy('author')
                 ->orderBy('sum', 'DESC')
                 ->get();
 
@@ -61,11 +62,11 @@ class ResultsController extends Controller
             foreach ($items as $item) {
 
                 $commits_count = Commit::where('repo_id', $repo->id)
-                    ->where('author', $item->committer)
+                    ->where('author', $item->author)
                     ->count();
 
                 $tdDiffs = TdDiff::where('repo_id', $repo->id)
-                    ->where('committer', $item->committer)
+                    ->where('author', $item->author)
                     ->get();
 
                 if(!$tdDiffs->count()) {
@@ -79,7 +80,7 @@ class ResultsController extends Controller
 
                 }
 
-                $resp['labels'][] = $item->committer;
+                $resp['labels'][] = $item->author;
                 $datapoints[] = $sqale_index_diff / $commits_count;
 
             }
@@ -105,9 +106,10 @@ class ResultsController extends Controller
             $resp['rq'] = 'RQ2: What kind of violations do developers add?';
             $resp['heatMap'] = [];
 
-            $items = TdDiff::select('committer', DB::raw('SUM(sqale_index_diff) as sum'))
+            $items = TdDiff::select('author', DB::raw('SUM(sqale_index_diff) as sum'))
                 ->where('repo_id', $repo->id)
-                ->groupBy('committer')
+                ->where('author', '<>', 'n/a')
+                ->groupBy('author')
                 ->orderBy('sum', 'DESC')
                 ->get();
 
@@ -123,14 +125,14 @@ class ResultsController extends Controller
             foreach ($items as $item) {
 
                 $tdDiffs = TdDiff::where('repo_id', $repo->id)
-                    ->where('committer', $item->committer)
+                    ->where('author', $item->author)
                     ->get();
 
                 if(!$tdDiffs->count()) {
                     continue;
                 }
 
-                $x[$item->committer] = $item->committer;
+                $x[$item->author] = $item->author;
 
                 foreach ($tdDiffs as $tdDiff) {
 
@@ -163,7 +165,7 @@ class ResultsController extends Controller
             foreach ($items as $item) {
 
                 $tdDiffs = TdDiff::where('repo_id', $repo->id)
-                    ->where('committer', $item->committer)
+                    ->where('author', $item->author)
                     ->get();
 
                 if(!$tdDiffs->count()) {
@@ -179,7 +181,7 @@ class ResultsController extends Controller
 
                             if($violation->added_or_resolved == 'added') {
 
-                                $z[$violation->key][$item->committer]++;
+                                $z[$violation->key][$item->author]++;
 
                             }
 
@@ -222,9 +224,10 @@ class ResultsController extends Controller
             $resp['labels'] = [];
             $resp['datasets'] = [];
 
-            $items = TdDiff::select('committer', DB::raw('SUM(sqale_index_diff) as sum'))
+            $items = TdDiff::select('author', DB::raw('SUM(sqale_index_diff) as sum'))
                 ->where('repo_id', $repo->id)
-                ->groupBy('committer')
+                ->where('author', '<>', 'n/a')
+                ->groupBy('author')
                 ->orderBy('sum', 'DESC')
                 ->get();
 
@@ -238,11 +241,11 @@ class ResultsController extends Controller
             foreach ($items as $item) {
 
                 $commits_count = Commit::where('repo_id', $repo->id)
-                    ->where('author', $item->committer)
+                    ->where('author', $item->author)
                     ->count();
 
                 $tdDiffs = TdDiff::where('repo_id', $repo->id)
-                    ->where('committer', $item->committer)
+                    ->where('author', $item->author)
                     ->get();
 
                 if(!$tdDiffs->count()) {
@@ -274,7 +277,7 @@ class ResultsController extends Controller
 
                 }
 
-                $resp['labels'][] = $item->committer;
+                $resp['labels'][] = $item->author;
                 $datapoints_va_count[] = $va_count / $commits_count;
                 $datapoints_vr_count[] = $vr_count / $commits_count;
 
@@ -307,9 +310,10 @@ class ResultsController extends Controller
             $resp['labels'] = [];
             $resp['datasets'] = [];
 
-            $items = TdDiff::select('committer', DB::raw('SUM(sqale_index_diff) as sum'))
+            $items = TdDiff::select('author', DB::raw('SUM(sqale_index_diff) as sum'))
                 ->where('repo_id', $repo->id)
-                ->groupBy('committer')
+                ->where('author', '<>', 'n/a')
+                ->groupBy('author')
                 ->orderBy('sum', 'DESC')
                 ->get();
 
@@ -326,11 +330,11 @@ class ResultsController extends Controller
             foreach ($items as $item) {
 
                 $commits_count = Commit::where('repo_id', $repo->id)
-                    ->where('author', $item->committer)
+                    ->where('author', $item->author)
                     ->count();
 
                 $tdDiffs = TdDiff::where('repo_id', $repo->id)
-                    ->where('committer', $item->committer)
+                    ->where('author', $item->author)
                     ->get();
 
                 if(!$tdDiffs->count()) {
@@ -380,7 +384,7 @@ class ResultsController extends Controller
 
                 }
 
-                $resp['labels'][] = $item->committer;
+                $resp['labels'][] = $item->author;
                 $datapoints_iv[] = $datapoints_iv_count;
                 $datapoints_miv[] = $datapoints_miv_count;
                 $datapoints_mav[] = $datapoints_mav_count;
@@ -432,9 +436,10 @@ class ResultsController extends Controller
                 'label' => 'Experience vs Added TD',
             ];
 
-            $items = TdDiff::select('committer', DB::raw('SUM(sqale_index_diff) as sum'))
+            $items = TdDiff::select('author', DB::raw('SUM(sqale_index_diff) as sum'))
                 ->where('repo_id', $repo->id)
-                ->groupBy('committer')
+                ->where('author', '<>', 'n/a')
+                ->groupBy('author')
                 ->orderBy('sum', 'DESC')
                 ->get();
 
@@ -448,26 +453,26 @@ class ResultsController extends Controller
             foreach ($items as $item) {
 
                 $tdDiffs = TdDiff::where('repo_id', $repo->id)
-                    ->where('committer', $item->committer)
+                    ->where('author', $item->author)
                     ->get();
 
                 if(!$tdDiffs->count()) {
                     continue;
                 }
 
-                $committer_first_commit = Commit::where('repo_id', $repo->id)
-                    ->where('author', $item->committer)
+                $author_first_commit = Commit::where('repo_id', $repo->id)
+                    ->where('author', $item->author)
                     ->orderBy('committed_at', 'asc')->first();
 
                 $commits_count = Commit::where('repo_id', $repo->id)
-                    ->where('author', $item->committer)
+                    ->where('author', $item->author)
                     ->count();
 
-                $age_days = $last_commit->committed_at->diffInDays($committer_first_commit->committed_at);
+                $age_days = $last_commit->committed_at->diffInDays($author_first_commit->committed_at);
 
                 $td_added = TdDiff::select(DB::raw('SUM(sqale_index_diff) as sum'))
                     ->where('repo_id', $repo->id)
-                    ->where('committer', $item->committer)
+                    ->where('author', $item->author)
                     ->first()->sum;
 
                 $resp['datasets'][0]['data'][] = ['x' => $td_added/$commits_count, 'y' => $age_days, 'r' => 10];
