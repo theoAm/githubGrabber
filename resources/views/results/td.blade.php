@@ -80,7 +80,7 @@
                         yAxes: [{
                             scaleLabel: {
                                 display: true,
-                                labelString: 'TD added per commit (in minutes)'
+                                labelString: 'TD added (in minutes) per changed LOC'
                             }
                         }],
                         xAxes: [{
