@@ -61,9 +61,14 @@ class ResultsController extends Controller
 
             foreach ($items as $item) {
 
-                $commits_count = Commit::where('repo_id', $repo->id)
-                    ->where('author', $item->author)
-                    ->count();
+                $commits_count = DB::table('commits')
+                    ->join('commit_stats', 'commits.id', '=', 'commit_stats.commit_id')
+                    ->where('commits.repo_id', $repo->id)
+                    ->where('commits.author', $item->author)
+                    ->select(DB::raw('SUM(commit_stats.total) as sum'))
+                    ->get();
+
+                dd($commits_count);
 
                 $tdDiffs = TdDiff::where('repo_id', $repo->id)
                     ->where('author', $item->author)
