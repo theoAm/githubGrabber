@@ -61,14 +61,12 @@ class ResultsController extends Controller
 
             foreach ($items as $item) {
 
-                $commits_count = DB::table('commits')
+                $changed_loc = DB::table('commits')
                     ->join('commit_stats', 'commits.id', '=', 'commit_stats.commit_id')
                     ->where('commits.repo_id', $repo->id)
                     ->where('commits.author', $item->author)
                     ->select(DB::raw('SUM(commit_stats.total) as sum'))
-                    ->get();
-
-                dd($commits_count);
+                    ->first()->sum;
 
                 $tdDiffs = TdDiff::where('repo_id', $repo->id)
                     ->where('author', $item->author)
@@ -86,12 +84,12 @@ class ResultsController extends Controller
                 }
 
                 $resp['labels'][] = $item->author;
-                $datapoints[] = $sqale_index_diff / $commits_count;
+                $datapoints[] = $sqale_index_diff / $changed_loc;
 
             }
 
             $resp['datasets'][] = [
-                'label' => "TD added per commit (in minutes)",
+                'label' => "TD added (in minutes) per changed LOC",
                 'data' => $datapoints,
                 'backgroundColor' => '#e5690b',
             ];
@@ -125,9 +123,12 @@ class ResultsController extends Controller
             $w = [];
             $x = [];
             $y = [];
+            $t = [];
             $z = [];
 
             foreach ($items as $item) {
+
+                $t[$item->author] = 0;
 
                 $tdDiffs = TdDiff::where('repo_id', $repo->id)
                     ->where('author', $item->author)
@@ -145,6 +146,8 @@ class ResultsController extends Controller
                     if($violations->count()) {
 
                         foreach ($violations as $violation) {
+
+                            $t[$item->author]++;
 
                             if($violation->added_or_resolved == 'added') {
 
@@ -196,6 +199,20 @@ class ResultsController extends Controller
 
                 }
 
+            }
+
+            /**
+             * Transform to percentages
+             * of total violation per committer
+             */
+            foreach ($z as $key => $array) {
+                foreach ($array as $com => $vcount) {
+                    if($t[$com] > 0) {
+                        $z[$key][$com] = round($vcount/$t[$com]*100, 2);
+                    } else {
+                        $z[$key][$com] = 0;
+                    }
+                }
             }
 
             $z = array_values($z);
@@ -469,9 +486,12 @@ class ResultsController extends Controller
                     ->where('author', $item->author)
                     ->orderBy('committed_at', 'asc')->first();
 
-                $commits_count = Commit::where('repo_id', $repo->id)
-                    ->where('author', $item->author)
-                    ->count();
+                $changed_loc = DB::table('commits')
+                    ->join('commit_stats', 'commits.id', '=', 'commit_stats.commit_id')
+                    ->where('commits.repo_id', $repo->id)
+                    ->where('commits.author', $item->author)
+                    ->select(DB::raw('SUM(commit_stats.total) as sum'))
+                    ->first()->sum;
 
                 $age_days = $last_commit->committed_at->diffInDays($author_first_commit->committed_at);
 
@@ -480,7 +500,7 @@ class ResultsController extends Controller
                     ->where('author', $item->author)
                     ->first()->sum;
 
-                $resp['datasets'][0]['data'][] = ['x' => $td_added/$commits_count, 'y' => $age_days, 'r' => 10];
+                $resp['datasets'][0]['data'][] = ['x' => $age_days, 'y' => $td_added/$changed_loc, 'r' => 5];
                 $resp['datasets'][0]['backgroundColor'] = '#e5690b';
             }
 

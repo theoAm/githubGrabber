@@ -209,13 +209,13 @@
                         yAxes: [{
                             scaleLabel: {
                                 display: true,
-                                labelString: 'Committer experience on code (days)'
+                                labelString: 'TD added (in minutes) per changed LOC'
                             }
                         }],
                         xAxes: [{
                             scaleLabel: {
                                 display: true,
-                                labelString: 'TD added per commit (in minutes)'
+                                labelString: 'Committer experience on code (days)'
                             }
                         }]
                     }
