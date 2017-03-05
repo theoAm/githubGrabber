@@ -28,11 +28,11 @@ class HomeController extends Controller
 
     function __construct()
     {
-        $this->repo_owner = "laravel";
-        $this->repo_name = "framework";
-        $this->repo_branch = "5.3";
-        $this->since = "2016-08-23T13:04:04Z";
-        $this->until = "2017-01-26T17:15:48Z";
+        $this->repo_owner = $_ENV['REPO_OWNER'];
+        $this->repo_name = $_ENV['REPO_NAME'];
+        $this->repo_branch = $_ENV['REPO_BRANCH'];
+        $this->since = $_ENV['REPO_COMMITS_SINCE'];
+        $this->until = $_ENV['REPO_COMMITS_UNTIL'];
         $this->slow_process = true;
         $this->github = new Github($this->repo_owner, $this->repo_name, $this->slow_process);
         $this->reporter = new Reporter($this->repo_owner, $this->repo_name, $this->slow_process);
@@ -40,7 +40,7 @@ class HomeController extends Controller
 
     function home()
     {
-
+        dd('Exiting...');
         $commit = Commit::find(80);
         $previous_commit = Commit::where('committed_at', '<', $commit->committed_at)
             ->where('repo_id', $commit->repo_id)
@@ -53,7 +53,7 @@ class HomeController extends Controller
 
     function fetchGithubData()
     {
-        //echo 'exiting...';exit;
+        echo 'exiting...';exit;
         //$this->github->getIssuesAndPulls();
         $this->github->getCommits($this->repo_branch, $this->since, $this->until);
     }
@@ -75,7 +75,7 @@ class HomeController extends Controller
 
     public function compareCommitsTd()
     {
-        //echo 'exiting...';exit;
+        echo 'exiting...';exit;
         $this->reporter->compareCommitsTd();
     }
 

@@ -291,3 +291,886 @@ file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=
 file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yiisoftyii2208:tests/framework/base/ActionFilterTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
 
 #####
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:5316576361e106738c3af69a59bbf26e8822d02a:framework/db/mssql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:5316576361e106738c3af69a59bbf26e8822d02a:framework/db/pgsql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:341701f25abf35a847027264d6ee423092105b58:framework/db/mssql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:341701f25abf35a847027264d6ee423092105b58:framework/db/pgsql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:15432971d6189810334f16cabd77ebdb02d9608c:framework/db/mssql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:15432971d6189810334f16cabd77ebdb02d9608c:framework/db/pgsql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:0b357446c9e9fbb3bf94d92920094e647e6f9956:tests/framework/web/mocks/ConsoleMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:813d1d9c318fc27cd343dc0539100e0d1cd4cc35:tests/framework/web/mocks/ConsoleMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8c2a70b3e77ff2ea08b5f03049cfa15071793431:framework/test/TraversableObject.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:93e321344759a7e0a735f1009ec8bb4bc2b22b08:tests/data/base/TraversableObject.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7f3511a908b333be4382b77e4b8022c30a88dd9c:tests/framework/grid/DataColumnTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7c7d751e67e8d61829acbf922a563ddbc94f7f67:tests/data/views/widgets/ListView/item.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7c7d751e67e8d61829acbf922a563ddbc94f7f67:tests/framework/widgets/ListViewTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:c17766181feca90a7642ffa4fcd7c52655fc4490:tests/framework/base/ApplicationTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:cb52c42cf50bea0bc02debca06b2d57aad954034:tests/framework/widgets/PjaxTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:edc3d0a35fa9311ad51199502166ab58bf7392f9:tests/data/views/error.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:edc3d0a35fa9311ad51199502166ab58bf7392f9:tests/framework/web/ErrorActionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:e5d169beb8257ba47654275cbee2e98fb910f5d5:tests/framework/behaviors/BlameableBehaviorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:6a5df6476831e4131e9a33d6f01d643508f88aa6:tests/framework/filters/AccessRuleTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:f2e8725de506e03ed9409b37aeb410137561d34c:tests/framework/log/DispatcherTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/ColumnSchemaTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/cubrid/ActiveDataProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/cubrid/ActiveRecordTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/cubrid/BatchQueryResultTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/cubrid/CommandTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/cubrid/ConnectionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/cubrid/QueryBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/cubrid/QueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/cubrid/SchemaTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mssql/ActiveDataProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mssql/ActiveRecordTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mssql/BatchQueryResultTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mssql/ColumnSchemaBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mssql/CommandTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mssql/ConnectionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mssql/QueryBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mssql/QueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mssql/SchemaTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mysql/ActiveDataProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mysql/ActiveRecordTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mysql/BatchQueryResultTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mysql/CommandTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mysql/ConnectionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mysql/QueryBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mysql/QueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/mysql/SchemaTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/oci/ActiveDataProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/oci/ActiveRecordTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/oci/BatchQueryResultTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/oci/CommandTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/oci/ConnectionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/oci/OracleActiveDataProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/oci/QueryBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/oci/QueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/oci/SchemaTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/pgsql/ActiveDataProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/pgsql/ActiveRecordTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/pgsql/BatchQueryResultTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/pgsql/ColumnSchemaBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/pgsql/CommandTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/pgsql/ConnectionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/pgsql/QueryBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/pgsql/QueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/pgsql/SchemaTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/sqlite/ActiveDataProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/sqlite/ActiveRecordTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/sqlite/BatchQueryResultTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/sqlite/CommandTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/sqlite/ConnectionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/sqlite/QueryBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/sqlite/QueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7ba631b4ae3a40206e752fded8775b65491d1bcb:tests/framework/db/sqlite/SchemaTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/cubrid/ActiveFixtureTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/cubrid/ExistValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/cubrid/UniqueValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/mssql/ActiveFixtureTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/mssql/ExistValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/mssql/UniqueValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/mysql/ActiveFixtureTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/mysql/ExistValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/mysql/UniqueValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/oci/ActiveFixtureTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/oci/ExistValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/oci/UniqueValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/pgsql/ActiveFixtureTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/pgsql/ExistValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/pgsql/UniqueValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/sqlite/ActiveFixtureTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/sqlite/ExistValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ba032d1470cadffb48b20954f5bb8b64aaf4d10:tests/framework/db/sqlite/UniqueValidatorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:86f17c8dad389d5b5e448028b2c090d54cd8c078:tests/framework/validators/ExistValidatorDriverTests/ExistValidatorPostgresTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:86f17c8dad389d5b5e448028b2c090d54cd8c078:tests/framework/validators/ExistValidatorDriverTests/ExistValidatorSQliteTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:86f17c8dad389d5b5e448028b2c090d54cd8c078:tests/framework/validators/UniqueValidatorDriverTests/UniqueValidatorPostgresTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:86f17c8dad389d5b5e448028b2c090d54cd8c078:tests/framework/validators/UniqueValidatorDriverTests/UniqueValidatorSQliteTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:76ffcb8bddd9769ee572f78b20d48d6aac686661:tests/framework/db/ColumnSchemaTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:76ffcb8bddd9769ee572f78b20d48d6aac686661:tests/framework/db/oci/OracleActiveDataProviderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:76ffcb8bddd9769ee572f78b20d48d6aac686661:tests/framework/validators/ExistValidatorDriverTests/ExistValidatorPostgresTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:76ffcb8bddd9769ee572f78b20d48d6aac686661:tests/framework/validators/ExistValidatorDriverTests/ExistValidatorSQliteTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:76ffcb8bddd9769ee572f78b20d48d6aac686661:tests/framework/validators/UniqueValidatorDriverTests/UniqueValidatorPostgresTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:76ffcb8bddd9769ee572f78b20d48d6aac686661:tests/framework/validators/UniqueValidatorDriverTests/UniqueValidatorSQliteTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:144d78ebb46874cd229f5c13ac3ca7ce3d59f1f2:tests/framework/rest/SerializerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:b54ef3f9e3b8293a2f1b7337829ad03968d31806:build/controllers/Utf8Controller.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:7d5e548f213a952aad2c96e5bc2828e357c0dcc2:tests/framework/base/ModuleTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:d4df72a2a4d83ce2f4ae4fef4ca252834d6a319b:tests/framework/web/ViewTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:e692340585b88f4f9566f6aef6a009711a84978f:tests/framework/db/oci/ActiveQueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:1454d3fa37672a5e771b8d4ab8b83d18a8ec3216:framework/console/UnknownCommandException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:1d3495d84dac5cabbf59f8e331a75426c483393d:tests/framework/console/UnkownCommandExceptionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:33c27bcf1eb053f7be17b4dfea0d32125f457a4f:tests/framework/base/ControllerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:4187718c148610b02fc973a19be53600e6230604:tests/framework/web/UrlManagerCreateUrlTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:4187718c148610b02fc973a19be53600e6230604:tests/framework/web/UrlManagerParseUrlTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:0f62d26e2c98ea2afa777811b3973b9fe5055cd4:tests/framework/web/UrlManagerCreateUrlTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:0f62d26e2c98ea2afa777811b3973b9fe5055cd4:tests/framework/web/UrlManagerParseUrlTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:2134442ba3517ceeadfe15eb9c22dc77c53df6d6:framework/db/mssql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:2134442ba3517ceeadfe15eb9c22dc77c53df6d6:framework/db/pgsql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:ce65e238515ed36103c7b4278d1c72a2cbf0d375:framework/base/ViewNotFoundException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:framework/console/UnknownCommandException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:framework/grid/RadioButtonColumn.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:framework/web/RangeNotSatisfiableHttpException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:tests/data/console/migrate_create/create_unsigned_big_pk.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:tests/data/console/migrate_create/create_unsigned_pk.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:tests/data/views/pageCacheLayout.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:tests/framework/base/ApplicationTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:tests/framework/base/ControllerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:tests/framework/console/UnkownCommandExceptionTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:tests/framework/filters/PageCacheTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:tests/framework/grid/RadiobuttonColumnTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:08054bba6df38244fa5089da8e88f1a62bfcb155:tests/framework/widgets/PjaxTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:9deb24e262751c612a3cbd2fcdf8437c9e354d99:framework/base/WidgetEvent.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:5d09f32b3b661fc49c09131272dd49def46c77bf:framework/behaviors/AttributeTypecastBehavior.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:5d09f32b3b661fc49c09131272dd49def46c77bf:tests/framework/behaviors/AttributeTypecastBehaviorTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:d1abe005da3b154e35ab5d2ac33511a137644378:tests/framework/web/UploadedFileTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:d1abe005da3b154e35ab5d2ac33511a137644378:tests/framework/web/stubs/VendorImage.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:22a224d232f23502bc2bfa3afce38dd337513b5a:framework/web/MultipartFormDataParser.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:22a224d232f23502bc2bfa3afce38dd337513b5a:tests/framework/web/MultipartFormDataParserTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:e32f2f4c092e424794c55fe3cbe9598e0669f97f:tests/framework/filters/auth/AuthMethodTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:0a9ffc05575b41ea4eefce9cdcb949d21f5de895:framework/filters/HostControl.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:0a9ffc05575b41ea4eefce9cdcb949d21f5de895:tests/framework/filters/HostControlTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:3946ac0dabf3cfce62ed251b89d6b66aa422e3be:tests/framework/caching/DbDependencyTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:319e27c45c04d19a21b39598998038ad5464d2f8:framework/caching/DbQueryDependency.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:319e27c45c04d19a21b39598998038ad5464d2f8:tests/framework/caching/DbQueryDependencyTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:10806a65a40b4a790d601bfa898ef22d858ea0be:tests/framework/log/SyslogTargetTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:95f625135153f82fbd427dfe1c5211e0f636857b:tests/framework/log/EmailTargetTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:0400eb9cee17d998968146c59619d4eb1686575e:tests/framework/web/stubs/Bar.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:0400eb9cee17d998968146c59619d4eb1686575e:tests/framework/web/stubs/OtherQux.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8f26e93b207613e7ba27a19d929ae929b315589f:framework/db/cubrid/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:51b99320bd369e1f99a56e0f4f09c161b1ee25ae:framework/db/mssql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8f26e93b207613e7ba27a19d929ae929b315589f:framework/db/mysql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:51b99320bd369e1f99a56e0f4f09c161b1ee25ae:framework/db/pgsql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8f26e93b207613e7ba27a19d929ae929b315589f:framework/db/sqlite/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:9bffbf8e49b2351419d13b6172d20040a80cb6d0:framework/db/cubrid/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:9bffbf8e49b2351419d13b6172d20040a80cb6d0:framework/db/mysql/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:9bffbf8e49b2351419d13b6172d20040a80cb6d0:framework/db/sqlite/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:9bffbf8e49b2351419d13b6172d20040a80cb6d0:tests/framework/db/cubrid/ColumnSchemaBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:9bffbf8e49b2351419d13b6172d20040a80cb6d0:tests/framework/db/mysql/ColumnSchemaBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:9bffbf8e49b2351419d13b6172d20040a80cb6d0:tests/framework/db/sqlite/ColumnSchemaBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:4531b981f4a4561a7104f87d6233381503c0ec6e:tests/framework/db/mysql/MysqlQueryBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:2e9d33b619e37395383e3eef46ecd553e2732603:tests/framework/db/mysql/MysqlQueryBuilderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:9824da5883de41fe7c6ec4fa3b33b9a7d9cf8696:framework/db/cubrid/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:9824da5883de41fe7c6ec4fa3b33b9a7d9cf8696:framework/db/sqlite/ColumnSchemaBuilder.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:fd6f433ff943a77a4404193c451f81ecf4401599:build/controllers/Utf8Controller.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:fd6f433ff943a77a4404193c451f81ecf4401599:framework/messages/tg/yii.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:50b7b8f6fb19cf03463b56635264ec705b2b8261:build/controllers/Utf8Controller.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:50b7b8f6fb19cf03463b56635264ec705b2b8261:framework/messages/tg/yii.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:b24c8c580461db4cfd01b0e7b20028410c5a7604:build/controllers/Utf8Controller.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:b24c8c580461db4cfd01b0e7b20028410c5a7604:framework/messages/tg/yii.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:333c4b6b4f4c3d33a30c8380d2da3eaadf08cb59:tests/framework/grid/GridViewTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:b0bb8649a3702de784a6310a23577b15508a21c6:tests/data/console/migrate_create/create_products_from_store_table.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:b0bb8649a3702de784a6310a23577b15508a21c6:tests/data/console/migrate_create/drop_products_from_store_table.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:0ac161b69d77db3179cf17388aedd8df35246079:framework/helpers/ReplaceArrayValue.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:0ac161b69d77db3179cf17388aedd8df35246079:framework/helpers/UnsetArrayValue.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8142de23d432ead57d91530c9324c1f4f03f5928:framework/web/NormalizerActionException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:a7f63b6da3b5f94cf70ad73d3bddf661b4d5e203:framework/web/UrlNormalizerRedirectException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:a7f63b6da3b5f94cf70ad73d3bddf661b4d5e203:tests/framework/web/UrlNormalizerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:fa845ee481650a26d304017065ea2fa985f59ccd:tests/data/console/migrate_create/create_titlte_with_comma_default_values.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:54c7e0c4349e9b119dced0c661ac2870a9e70b61:tests/framework/console/RequestTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:1defc74ca4067cb6fa203034137f2cabe0031371:tests/framework/db/ActiveQueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:1defc74ca4067cb6fa203034137f2cabe0031371:tests/framework/db/cubrid/ActiveQueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:1defc74ca4067cb6fa203034137f2cabe0031371:tests/framework/db/mssql/ActiveQueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:1defc74ca4067cb6fa203034137f2cabe0031371:tests/framework/db/mysql/ActiveQueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:1defc74ca4067cb6fa203034137f2cabe0031371:tests/framework/db/pgsql/ActiveQueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:1defc74ca4067cb6fa203034137f2cabe0031371:tests/framework/db/sqlite/ActiveQueryTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:b2ec1e2bc9a956e14cf0467ba72b57f47d4b110d:tests/framework/console/controllers/HelpControllerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:5f8ec360ca4f3334a570d2c428e96b806b0d503c:tests/data/cache/MockDependency.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:5f8ec360ca4f3334a570d2c428e96b806b0d503c:tests/framework/caching/DependencyTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:8ea1f510afef71706a31cd717680d8422560e1f3:tests/framework/widgets/PjaxTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:02af14e62f832cb9e77868db5cea08c872a92456:tests/framework/widgets/PjaxTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:242d850d6cb16f71cd91cfdeeda23da7bb9e3327:tests/framework/widgets/PjaxTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:eb6ea11931a9bc0413f5fed2e9720c9349e21350:framework/grid/RadioButtonColumn.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:eb6ea11931a9bc0413f5fed2e9720c9349e21350:tests/framework/grid/RadiobuttonColumnTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:68d9e282ed5f5739f10727719c88bb9c3e795423:framework/mutex/OracleMutex.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:fa9675636b41afd5c119ed78996bdcfcc1dea3f3:tests/framework/widgets/ListViewTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:68ee789fdccb516639a63ab42552c921b85c58df:tests/framework/console/controllers/DbMessageControllerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:22b2a78a0a656732ff8aab7061f7ff128ec52e7e:tests/framework/console/FakeHelpController.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:143f9070af42bff3b86255c6c18931cf3d732c2a:tests/data/console/migrate_create/create_title_with_comma_default_values.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:a1d718a7ac08dba0251669213e72bec203fe61a0:framework/test/TraversableObject.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:2238c320981311785106952820cce08e74669671:framework/rbac/CheckAccessInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:b30b5a99ea0a00c0a57839fe88658f0437406dab:framework/di/NotInstantiableException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:db1a96d87612c558166f91d78fdd22b933694ee5:framework/views/_addColumns.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:db1a96d87612c558166f91d78fdd22b933694ee5:framework/views/_addForeignKeys.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:db1a96d87612c558166f91d78fdd22b933694ee5:framework/views/_createTable.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:db1a96d87612c558166f91d78fdd22b933694ee5:framework/views/_dropColumns.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:db1a96d87612c558166f91d78fdd22b933694ee5:framework/views/_dropForeignKeys.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:db1a96d87612c558166f91d78fdd22b933694ee5:framework/views/_dropTable.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:db1a96d87612c558166f91d78fdd22b933694ee5:framework/views/_foreignTables.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/add_columns_fk.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/add_columns_prefix.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/add_columns_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/create_fields.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/create_foreign_key.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/create_id_pk.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/create_prefix.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/create_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/create_title_pk.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/default.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/drop_columns_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/drop_fields.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/drop_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=yii2:bd2e78c1db029fe28ed0b6abb270fbc78aedf81a:tests/data/console/migrate_create/junction_test.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar

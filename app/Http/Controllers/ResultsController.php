@@ -59,7 +59,10 @@ class ResultsController extends Controller
 
             $datapoints = [];
 
+            $counter = 0;
             foreach ($items as $item) {
+
+                $counter++;
 
                 $changed_loc = DB::table('commits')
                     ->join('commit_stats', 'commits.id', '=', 'commit_stats.commit_id')
@@ -83,7 +86,7 @@ class ResultsController extends Controller
 
                 }
 
-                $resp['labels'][] = $item->author;
+                $resp['labels'][] = 'Developer ' . $counter;
                 $datapoints[] = $sqale_index_diff / $changed_loc;
 
             }
@@ -125,8 +128,13 @@ class ResultsController extends Controller
             $y = [];
             $t = [];
             $z = [];
+            $x_anonymous = [];
+
+            $counter = 0;
 
             foreach ($items as $item) {
+
+                $counter++;
 
                 $t[$item->author] = 0;
 
@@ -139,6 +147,7 @@ class ResultsController extends Controller
                 }
 
                 $x[$item->author] = $item->author;
+                $x_anonymous[] = 'Developer ' . $counter;
 
                 foreach ($tdDiffs as $tdDiff) {
 
@@ -224,7 +233,7 @@ class ResultsController extends Controller
 
             $resp['w'] = $w;
             $resp['heatMap'][] = [
-                'x' => array_values($x),
+                'x' => array_values($x_anonymous),
                 'y' => array_values($y),
                 'z' => array_values($z),
                 'type' => 'heatmap',
@@ -272,7 +281,11 @@ class ResultsController extends Controller
             $datapoints_va_count = [];
             $datapoints_vr_count = [];
 
+            $counter = 0;
+
             foreach ($items as $item) {
+
+                $counter++;
 
                 $commits_count = Commit::where('repo_id', $repo->id)
                     ->where('author', $item->author)
@@ -311,7 +324,7 @@ class ResultsController extends Controller
 
                 }
 
-                $resp['labels'][] = $item->author;
+                $resp['labels'][] = 'Developer' . $counter;
                 $datapoints_va_count[] = $va_count / $commits_count;
                 $datapoints_vr_count[] = $vr_count / $commits_count;
 
@@ -361,7 +374,11 @@ class ResultsController extends Controller
             $datapoints_cv = [];
             $datapoints_bv = [];
 
+            $counter = 0;
+
             foreach ($items as $item) {
+
+                $counter++;
 
                 $commits_count = Commit::where('repo_id', $repo->id)
                     ->where('author', $item->author)
@@ -418,7 +435,7 @@ class ResultsController extends Controller
 
                 }
 
-                $resp['labels'][] = $item->author;
+                $resp['labels'][] = 'Developer ' . $counter;
                 $datapoints_iv[] = $datapoints_iv_count;
                 $datapoints_miv[] = $datapoints_miv_count;
                 $datapoints_mav[] = $datapoints_mav_count;

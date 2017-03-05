@@ -846,3 +846,239 @@ Not Found - [https://api.github.com/repos/composer/composer/commits/7c8bfdc60a51
 Not Found - [https://api.github.com/repos/composer/composer/commits/0fcafd0b1b6538f808ce78e17802f891cf9c2cc6?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
 Not Found - [https://api.github.com/repos/composer/composer/commits/d7efaa27dc809035327b42e5ac840734e15b05bb?access_token=eef5cf07ae388cc529c6e5d13ea0f443234b3cc9]
 #####
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:60ce2324bcf0b784d66444760c6f996b4a6ca902:tests/Composer/Test/Autoload/Fixtures/autoload_static_files_by_dependency.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:60ce2324bcf0b784d66444760c6f996b4a6ca902:tests/Composer/Test/Autoload/Fixtures/autoload_static_functions.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:60ce2324bcf0b784d66444760c6f996b4a6ca902:tests/Composer/Test/Autoload/Fixtures/autoload_static_functions_with_include_paths.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:60ce2324bcf0b784d66444760c6f996b4a6ca902:tests/Composer/Test/Autoload/Fixtures/autoload_static_functions_with_removed_include_paths_and_autolad_files.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:60ce2324bcf0b784d66444760c6f996b4a6ca902:tests/Composer/Test/Autoload/Fixtures/autoload_static_include_path.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:60ce2324bcf0b784d66444760c6f996b4a6ca902:tests/Composer/Test/Autoload/Fixtures/autoload_static_target_dir.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:9206c646a2f255f00d80735adb5bd36e354a68cc:src/Composer/Command/OutdatedCommand.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:ec933398c4b71ad18e3218d7b4a29e8182c1edf1:tests/Composer/Test/Autoload/Fixtures/php7.0/anonclass.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:efa6210f33ed2aa06597749f8342356db7ebf554:src/Composer/Command/OutdatedCommand.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:35fbf9bc14ada129a061079d8fbcadf829d833a6:src/Composer/Plugin/CommandsProviderInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:35fbf9bc14ada129a061079d8fbcadf829d833a6:tests/Composer/Test/Plugin/Fixtures/plugin-v8/Installer/Plugin8.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:431943515438939e08e75a085d9793be4429451c:src/Composer/Plugin/Capability/CommandProvider.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:431943515438939e08e75a085d9793be4429451c:tests/Composer/Test/Plugin/Fixtures/plugin-v8/Installer/CommandProvider.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:6620136309d0855b02af0381913c29a9408e210e:src/Composer/EventDispatcher/ScriptExecutionException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:4f7fbbc879c88e1878551d715e1c537cc56dd410:src/Composer/Exception/NoSslException.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:c2129dedbc50870033c35c32066a04aabcd45bcc:tests/Composer/Test/Plugin/Fixtures/plugin-v9/Installer/Plugin.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:4f58c2419598d743da405a48cf9bb3d8ba89231c:tests/Composer/Test/Repository/Vcs/GitBitbucketDriverTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:75074382de9d7b61c041e494aee123477ae01853:src/Composer/Downloader/FossilDownloader.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:75074382de9d7b61c041e494aee123477ae01853:src/Composer/Repository/Vcs/FossilDriver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:75074382de9d7b61c041e494aee123477ae01853:tests/Composer/Test/Downloader/FossilDownloaderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:75074382de9d7b61c041e494aee123477ae01853:tests/Composer/Test/Repository/Vcs/FossilDriverTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:98bf6d704ebb004da385dfacbe018496230a99fa:src/Composer/Downloader/VcsCapableDownloaderInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:e53119f8068761794913cdefc4140415024a2e3f:src/Composer/Installer/InstallerBinaryInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:88d5b74c741da8ac78b78e0168cb2c282e182605:src/Composer/Installer/BinaryPresenceInterface.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:6ec8b2bfd6cc8901410baf2eabd0e476b6869d88:src/Composer/XdebugHandler.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:6ec8b2bfd6cc8901410baf2eabd0e476b6869d88:tests/Composer/Test/Mock/XdebugHandlerMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:6ec8b2bfd6cc8901410baf2eabd0e476b6869d88:tests/Composer/Test/XdebugHandlerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:103624d4ed7da1719f8204f11f97147108e1e975:tests/Composer/Test/Repository/Vcs/HgDriverTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:96540d4139c8770277b97e183f346cfa53624aa2:src/Composer/Repository/Vcs/BitbucketDriver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:f78f6c963d6c4779a577abd4bfc47410ff7b858a:src/Composer/XdebugHandler.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:6ca32b5bc5f58860839b50610475ec565d02d639:tests/Composer/Test/Autoload/Fixtures/classmap/ShortOpenTag.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:6ca32b5bc5f58860839b50610475ec565d02d639:tests/Composer/Test/Autoload/Fixtures/classmap/ShortOpenTagDocblock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:9e7d1a4f9ed34466a05ac1356e97a98686f7da67:src/Composer/XdebugHandler.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:9e7d1a4f9ed34466a05ac1356e97a98686f7da67:tests/Composer/Test/Mock/XdebugHandlerMock.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:9e7d1a4f9ed34466a05ac1356e97a98686f7da67:tests/Composer/Test/XdebugHandlerTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:a33b205561ddeb8c262a453dc64e158379c1ee5e:src/Composer/XdebugHandler.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:3e010fc33278aeda1d6272119f5f16aaff2fa434:src/Composer/XdebugHandler.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:909dbf57315f5ff75b1350348fc698da259d569a:src/Composer/XdebugHandler.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:de9f333ec6049d8434404b0a4af219fe19773017:src/Composer/Util/IniHelper.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:de9f333ec6049d8434404b0a4af219fe19773017:tests/Composer/Test/Util/IniHelperTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:a8edaad3813fac72e0a4bb2ded2b4cb865d0ff4e:tests/Composer/Test/Repository/Vcs/GitBitbucketDriverTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:7a112b03959715d649c96340af7ffbcd4b1e5fe6:tests/Composer/Test/Repository/Vcs/GitBitbucketDriverTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:ebae5dfd95025675bebebf2c0ed58189a58158dc:src/Composer/Downloader/FossilDownloader.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:517a9b6f4c71517cc9841e9ea118cfa29592861d:tests/Composer/Test/Downloader/FossilDownloaderTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:517a9b6f4c71517cc9841e9ea118cfa29592861d:tests/Composer/Test/Repository/Vcs/FossilDriverTest.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+file_get_contents(http://195.251.210.148:9000/api/measures/component?metricKeys=sqale_index,sqale_debt_ratio,blocker_violations,critical_violations,major_violations,minor_violations,info_violations&componentKey=composer:a330d27b10122c4caf0a55d2aa85ffda5daa1053:src/Composer/Repository/Vcs/BitbucketDriver.php): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
+Undefined property: stdClass::$defaultDebtChar
